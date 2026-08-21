@@ -1,6 +1,6 @@
+import os
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-import numpy as np
 
 # ==================== PARAMETERS ====================
 
@@ -10,9 +10,10 @@ LINE_CLR  = '#252525'
 BOX_FACE  = '#ffffff'
 BOX_EDGE  = '#252525'
 
-FIG_W_MM  = 178
-FIG_H_MM  = 152
-DPI       = 300
+FIG_W_MM    = 180
+FIG_H_MM    = 152
+DPI         = 300
+TARGET_W_PX = 2126
 
 # ==================== DATA ====================
 
@@ -58,20 +59,20 @@ box3_n     = '$n$ = 66'
 
 plt.rcParams['font.family'] = 'Arial'
 
-fig_w = FIG_W_MM / 25.4
+fig_w = TARGET_W_PX / DPI
 fig_h = FIG_H_MM / 25.4
-fig = plt.figure(figsize=(fig_w, fig_h), facecolor=BG)
-ax = fig.add_axes([0.025, 0.018, 0.955, 0.964], facecolor='none')
+fig = plt.figure(figsize=(fig_w, fig_h), facecolor=BG, dpi=DPI)
+ax = fig.add_axes([0.025, 0.015, 0.95, 0.97], facecolor=BG)
 ax.axis('off')
 
 # ==================== GEOMETRY ====================
 
-bx, bw, bh = 0.040, 0.60, 0.120   # main box — wider (0.60 vs 0.56)
+bx, bw, bh = 0.035, 0.55, 0.120
 arrow_x = bx + bw / 2
-br_x    = bx + bw + 0.040          # bracket vertical line
-tx_x    = br_x + 0.028             # text start
+br_x    = bx + bw + 0.035
+tx_x    = br_x + 0.022
 
-# Y centers — spread for taller bracket content
+# Y centers
 y1 = 0.894   # Box 1
 y2 = 0.467   # Box 2
 y3 = 0.221   # Box 3
@@ -86,16 +87,13 @@ def draw_box(ax, x, y, w, h, title, subtitle, n_text):
         linewidth=1.1, zorder=3)
     ax.add_patch(rect)
     if subtitle:
-        # Title centered in upper portion, subtitle + n on second line
         ax.text(x + w/2, y + 0.014, title, ha='center', va='bottom',
                 fontsize=10.5, color=TEXT_CLR, zorder=4)
-        # Date (left) and n (right) on same line below title
         ax.text(x + 0.025, y - 0.012, subtitle, ha='left', va='top',
                 fontsize=9, color=TEXT_CLR, zorder=4)
         ax.text(x + w - 0.025, y - 0.012, n_text, ha='right', va='top',
                 fontsize=9.5, color=TEXT_CLR, zorder=4)
     else:
-        # Title left, n right — single line, full width used
         ax.text(x + 0.025, y, title, ha='left', va='center',
                 fontsize=10.5, color=TEXT_CLR, zorder=4)
         ax.text(x + w - 0.025, y, n_text, ha='right', va='center',
@@ -110,13 +108,13 @@ def draw_arrow_down(ax, x, y0, y1):
 
 def calc_bracket_height(sections, bracket_gap=0.016):
     """Calculate total bracket text height in data coords."""
-    h = 0.018  # top padding
+    h = 0.018
     for si, sec in enumerate(sections):
-        h += 0.026   # header line
-        h += len(sec['items']) * 0.023  # items
+        h += 0.026
+        h += len(sec['items']) * 0.023
         if si < len(sections) - 1:
             h += bracket_gap
-    h += 0.012  # bottom padding before total_n
+    h += 0.012
     return h
 
 
@@ -127,12 +125,10 @@ def draw_excl_bracket(ax, br_x, tx_x, y_mid, sections, total_n=None):
     y_bot = y_mid - bracket_h / 2
 
     lw = 0.8
-    # Bracket horizontal arms + vertical line
     ax.plot([br_x, tx_x], [y_bot, y_bot], color=LINE_CLR, linewidth=lw, clip_on=False)
     ax.plot([br_x, tx_x], [y_top, y_top], color=LINE_CLR, linewidth=lw, clip_on=False)
     ax.plot([br_x, br_x], [y_bot, y_top], color=LINE_CLR, linewidth=lw, clip_on=False)
 
-    # Text starting from top
     y_pos = y_top - 0.018
 
     for si, sec in enumerate(sections):
@@ -148,12 +144,11 @@ def draw_excl_bracket(ax, br_x, tx_x, y_mid, sections, total_n=None):
                 break
             ax.text(tx_x + 0.006, y_pos, f'• {item}',
                     ha='left', va='center', fontsize=7.5, color=TEXT_CLR, clip_on=False)
-            y_pos -= 0.023  # line spacing
+            y_pos -= 0.023
 
         if si < len(sections) - 1:
-            y_pos -= 0.016  # gap between sections
+            y_pos -= 0.016
 
-    # Total excluded n label at bottom
     if total_n:
         ax.text(tx_x, y_bot + 0.005, total_n, ha='left', va='bottom',
                 fontsize=7.5, color=TEXT_CLR, clip_on=False)
@@ -164,7 +159,7 @@ def draw_excl_bracket(ax, br_x, tx_x, y_mid, sections, total_n=None):
 # Box 1
 draw_box(ax, bx, y1, bw, bh, box1_title, box1_sub, box1_n)
 
-# Gap 1 midpoint (for bracket centering)
+# Gap 1 midpoint
 b1_bot = y1 - bh/2
 b2_top = y2 + bh/2
 gap1_mid = (b1_bot + b2_top) / 2
@@ -172,7 +167,7 @@ gap1_mid = (b1_bot + b2_top) / 2
 # Arrow 1
 draw_arrow_down(ax, arrow_x, b1_bot - 0.004, b2_top + 0.004)
 
-# Exclusion bracket 1: inclusion + exclusion criteria
+# Exclusion bracket 1
 draw_excl_bracket(ax, br_x, tx_x, gap1_mid, [
     {'head': incl_head, 'items': incl_list},
     {'head': excl_head, 'items': excl_list},
@@ -189,7 +184,7 @@ gap2_mid = (b2_bot + b3_top) / 2
 # Arrow 2
 draw_arrow_down(ax, arrow_x, b2_bot - 0.004, b3_top + 0.004)
 
-# Exclusion bracket 2: QC
+# Exclusion bracket 2
 draw_excl_bracket(ax, br_x, tx_x, gap2_mid, [
     {'head': qc_head, 'items': qc_list},
 ], total_n=total_excl2)
@@ -197,15 +192,12 @@ draw_excl_bracket(ax, br_x, tx_x, gap2_mid, [
 # Box 3
 draw_box(ax, bx, y3, bw, bh, box3_title, None, box3_n)
 
+ax.set_xlim(0, 1)
+ax.set_ylim(0.12, 0.98)
+
 # ==================== SAVE ====================
 
-# Set viewport to content extent so bbox_inches='tight' crops correctly
-margin = 0.024
-ax.set_xlim(0, 1)
-ax.set_ylim(y3 - bh/2 - 0.022 - margin, y1 + bh/2 + 0.022 + margin)
-
-out = 'figures/Figure_1.png'
-fig.savefig(out, dpi=DPI, bbox_inches='tight', pad_inches=0.03,
-            facecolor=BG, edgecolor='none')
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_1.jpg')
+fig.savefig(out, dpi=DPI, format='jpeg', facecolor=BG, edgecolor='none', pil_kwargs={'quality': 95})
 plt.close()
 print(f'Saved {out}')

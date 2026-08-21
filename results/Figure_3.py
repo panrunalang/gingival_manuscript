@@ -1,9 +1,9 @@
+import os
+import csv
+from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import kendalltau
-import csv
-from collections import Counter
-import os
 
 # ==================== PARAMETERS ====================
 
@@ -15,9 +15,10 @@ C3_DARK  = '#147EBC'
 C2_YES   = '#147EBC'
 C2_NO    = '#E5E5F3'
 
-FIG_W_MM = 174
-FIG_H_MM = 105
-DPI      = 300
+FIG_W_MM    = 180
+FIG_H_MM    = 110
+DPI         = 300
+TARGET_W_PX = 2126
 
 LABELS = ['A', 'B', 'C']
 
@@ -92,8 +93,7 @@ post_levels  = ['No\ndiscomfort', 'Mild\nsymptoms', 'Marked\ndiscomfort']
 psych_levels = ['Yes', 'No']
 fs_levels    = ['No\ninfluence', 'Mild\ninfluence', 'Moderate\ninfluence']
 
-# Short x-tick labels for Panel C (postop categories — single line to avoid overlap)
-post_short = ['None', 'Mild', 'Marked']
+post_short   = ['None', 'Mild', 'Marked']
 
 # Panel A
 tab_a = Counter(zip(anxiety, postop))
@@ -113,13 +113,13 @@ mat_c_pct = mat_c / mat_c.sum(axis=1, keepdims=True) * 100
 # ==================== FIGURE SETUP ====================
 
 plt.rcParams['font.family'] = 'Arial'
-plt.rcParams['font.size'] = 8
+plt.rcParams['font.size'] = 8.5
 
-fig_w = FIG_W_MM / 25.4
+fig_w = TARGET_W_PX / DPI
 fig_h = FIG_H_MM / 25.4
 
-fig, axes = plt.subplots(1, 3, figsize=(fig_w, fig_h), facecolor=BG)
-plt.subplots_adjust(bottom=0.30, top=0.88, wspace=0.28)
+fig, axes = plt.subplots(1, 3, figsize=(fig_w, fig_h), facecolor=BG, dpi=DPI)
+plt.subplots_adjust(left=0.08, right=0.96, bottom=0.30, top=0.88, wspace=0.32)
 
 panels = [
     {   # A
@@ -180,45 +180,45 @@ for i, pn in enumerate(panels):
                 ax.text(bar_rect.get_x() + bar_rect.get_width() / 2,
                         bar_rect.get_y() + bar_rect.get_height() / 2,
                         str(v_cnt), ha='center', va='center',
-                        fontsize=7, color=txt_color)
+                        fontsize=7.5, color=txt_color)
         bottom += vals
 
     # --- Row totals above bars ---
     for xi, row_total in enumerate(pn['mat_count'].sum(axis=1)):
         ax.text(xi, 107, f'$n$={row_total}', ha='center', va='center',
-                fontsize=7, color=TEXT_CLR)
+                fontsize=7.5, color=TEXT_CLR)
 
     # --- p-value above n=XX labels, centered in panel ---
     p_val = pn['p']
     if p_val < 0.001:
-        p_text = '$p$ < 0.001'
+        p_text = r'$P$ < 0.001'
     else:
         p_trunc = int(p_val * 1000) / 1000
-        p_text = f'$p$ = {p_trunc:.3f}'
-    ax.text((n_rows - 1) / 2, 113.5, p_text, ha='center', va='center',
-            fontsize=7.5, color=TEXT_CLR)
+        p_text = f'$P$ = {p_trunc:.3f}'
+    ax.text((n_rows - 1) / 2, 114, p_text, ha='center', va='center',
+            fontsize=8, color=TEXT_CLR)
 
     # --- Axes formatting ---
     ax.set_xlim(-0.65, n_rows - 0.35)
-    ax.set_ylim(0, 118)
+    ax.set_ylim(0, 120)
     ax.set_xticks(x)
-    ax.set_xticklabels(pn['row_labels'], fontsize=7.5, color=TEXT_CLR)
+    ax.set_xticklabels(pn['row_labels'], fontsize=8, color=TEXT_CLR)
     ax.set_yticks([0, 25, 50, 75, 100])
-    ax.set_yticklabels(['0', '25', '50', '75', '100'], fontsize=7, color=TEXT_CLR)
+    ax.set_yticklabels(['0', '25', '50', '75', '100'], fontsize=7.5, color=TEXT_CLR)
     if i == 0:
-        ax.set_ylabel('Percentage (%)', fontsize=8, color=TEXT_CLR, labelpad=2)
+        ax.set_ylabel('Percentage (%)', fontsize=8.5, color=TEXT_CLR, labelpad=2)
 
     # --- Spines ---
     for spine in ['top', 'right']:
         ax.spines[spine].set_visible(False)
     for spine in ['left', 'bottom']:
-        ax.spines[spine].set_linewidth(0.5)
+        ax.spines[spine].set_linewidth(0.6)
         ax.spines[spine].set_color(TEXT_CLR)
-    ax.tick_params(width=0.5, length=3)
+    ax.tick_params(width=0.6, length=3)
 
     # --- Panel label ---
-    ax.text(-0.10, 1.06, LABELS[i], transform=ax.transAxes,
-            ha='left', va='top', fontsize=10, fontweight='bold',
+    ax.text(-0.12, 1.06, LABELS[i], transform=ax.transAxes,
+            ha='left', va='top', fontsize=10.5, fontweight='bold',
             color=TEXT_CLR)
 
     # --- Legend ---
@@ -229,24 +229,23 @@ for i, pn in enumerate(panels):
         handles=legend_handles,
         labels=pn['col_labels'],
         loc='upper center',
-        bbox_to_anchor=(0.50, -0.18),
-        fontsize=6.5, frameon=True, edgecolor='#cccccc',
+        bbox_to_anchor=(0.50, -0.19),
+        fontsize=7, frameon=True, edgecolor='#cccccc',
         framealpha=1, facecolor='white',
         ncol=ncl, labelspacing=0.25, handlelength=0.9,
         handletextpad=0.5, columnspacing=1.0, borderpad=0.35,
         title=pn['legend_title'],
-        title_fontsize=6.5,
+        title_fontsize=7,
     )
     leg.get_title().set_color(TEXT_CLR)
 
 # ==================== SAVE ====================
 
-_out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_3.png')
-plt.savefig(_out_path, dpi=DPI, facecolor=BG, edgecolor='none',
-            pad_inches=0.05, bbox_inches='tight')
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_3.jpg')
+fig.savefig(out, dpi=DPI, format='jpeg', facecolor=BG, edgecolor='none', pil_kwargs={'quality': 95})
 plt.close()
 
-print('Saved Figure_3.png')
+print(f'Saved {out}')
 print(f'Panel A: Kendall τ = {tau_a:.3f}, p = {p_a:.4f}')
 print(f'Panel B: Kendall τ = {tau_b:.3f}, p = {p_b:.4f}')
 print(f'Panel C: Kendall τ = {tau_c:.3f}, p = {p_c:.4f}')
