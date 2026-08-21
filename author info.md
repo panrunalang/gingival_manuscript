@@ -18,7 +18,7 @@ Wei Luo<sup>#, †</sup>, Runlang Pan<sup>#, †</sup>, Manying Zhou<sup>†</su
 
 <sup>†</sup>Department of Periodontology, School and Hospital of Stomatology, Guangdong Engineering Research Center of Oral Restoration and Reconstruction, Guangzhou Medical University, Guangzhou, 510182, China
 
-**Email addresses**:  Huang Yingsi:xxx;Wenguang Qin: 2015686011@gzhmu.edu.cn
+**Email addresses**: Huang Yingsi: 467965641@qq.com; Wenguang Qin: 2015686011@gzhmu.edu.cn
 
 **Author Contributions**
 

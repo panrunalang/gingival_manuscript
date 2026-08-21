@@ -6,7 +6,22 @@ output:
     pandoc_args: ["--reference-doc=template.docx", "--variable", "Plain Table 5"]
 ---
 
-Awareness of Periodontal Mucogingival Surgery and Associated Factors
+Wei Luo<sup>1, #</sup>, Runlang Pan<sup>1, #</sup>, Shuting Liu<sup>1</sup>, Manying Zhou<sup>1</sup>, Ting Zhang<sup>1</sup>, Yingsi Huang<sup>1, \*</sup>, Wenguang Qin<sup>1, \*</sup>
+
+<sup>1</sup> Department of Periodontology, School and Hospital of Stomatology, Guangdong Engineering Research Center of Oral Restoration and Reconstruction, Guangzhou Medical University, Guangzhou, 510182, China
+
+<sup>#</sup> These authors contributed equally to this work and share first authorship.
+
+<sup>\*</sup> **Correspondence:**  
+Wenguang Qin  
+2015686011@gzhmu.edu.cn  
+Yingsi Huang  
+467965641@qq.com  
+
+**Manuscript word count:** 2,643 words (excluding abstract, references, tables, and figure captions)  
+**Abstract word count:** 289 words  
+**Figure count:** 3  
+**Table count:** 2  
 
 **Abstract**
 
@@ -26,7 +41,7 @@ Therefore, this study conducted a postoperative questionnaire survey among patie
 
 **Study design and data collection**
 
-This study was approved by the institutional ethics committee (approval number blinded for peer review). A total of 2,876 patients who received periodontal surgery at the study hospital from July 2022 to December 2025 were screened. Among them, 72 patients underwent periodontal mucogingival surgery for Miller Class I or II GR. A retrospective questionnaire survey was conducted using the hospital's electronic medical record system and postoperative follow-up registry.
+This study was approved by the Ethics Committee of the Hospital of Stomatology, Guangzhou Medical University (approval number: LCYJ2023055). All participants provided written informed consent prior to enrollment. A total of 2,876 patients who received periodontal surgery at the Hospital of Stomatology, Guangzhou Medical University from July 2022 to December 2025 were screened. Among them, 72 patients underwent periodontal mucogingival surgery for Miller Class I or II GR. A retrospective questionnaire survey was conducted using the hospital's electronic medical record system and postoperative follow-up registry.
 
 The inclusion criteria were as follows: (1) clinical diagnosis of Miller Class I or II GR; (2) receipt of periodontal mucogingival surgery; (3) age ≥18 years; (4) ability to complete the questionnaire independently; and (5) voluntary signing of informed consent.
 
@@ -77,6 +92,30 @@ These psychological factors were not isolated. The association analysis further 
 This study has several limitations. The sample size was relatively small (66 patients) compared with the number of variables in the logistic regression model, and the estimated events per variable were insufficient; therefore, the regression results' robustness needs to be validated in larger samples. The questionnaire was self-developed and revised following pilot testing, but its scientific validity remains to be confirmed. The cross-sectional design could not determine causal relationships between information-seeking behaviors/awareness and clinical outcomes. Future multicenter prospective studies with larger samples are needed to explore the effects of preoperative awareness interventions on surgical acceptance and postoperative satisfaction.
 
 Patients with GR showed a generally positive attitude toward seeking information about mucogingival surgery, with 93.94% seeking any surgery-related information, but only 43.94% obtaining it from professional healthcare channels. Education level and annual household income were key factors associated with professional information seeking (proxy indicator of awareness), underscoring the need for stratified, refined oral health promotion strategies and individualized oral health education for populations with varying levels of education and income. In addition, preoperative anxiety was associated with postoperative reactions and psychological burden, while postoperative reactions were associated with willingness to undergo future surgery. Active postoperative management and reasonable preoperative expectation guidance may help interrupt the cycle of anxiety, negative experiences, and surgical avoidance. Preoperative psychological assessment and counseling should become routine components of mucogingival surgical care. These findings may provide evidence for preoperative health education by medical students and junior clinicians and may help improve surgical acceptance and treatment outcomes among patients with GR.
+
+**Author Contributions**
+
+Wei Luo: Conceptualization, Methodology, Investigation, Data curation, Writing – original draft. Runlang Pan: Formal analysis, Visualization, Writing – original draft. Shuting Liu: Investigation, Data curation. Manying Zhou: Investigation, Data curation. Ting Zhang: Investigation, Data curation. Yingsi Huang: Funding acquisition, Writing – review & editing. Wenguang Qin: Conceptualization, Methodology, Supervision, Formal analysis, Writing – review & editing.
+
+**Funding**
+
+This work was supported by the Guangdong Basic and Applied Basic Research Foundation (2023A1515030037), the Guangzhou Medical University, School of Stomatology, Educational Science Planning and Teaching Reform Project: “Three-Dimensional Integration · Five-Education Synergy: Constructing and Practicing a Periodontology Practical Teaching Model Bidirectionally Empowered by Ideological–Political Education and Digital Intelligence” and the University Scientific Research Project of the Guangzhou Education Bureau (2024312042).
+
+**Acknowledgments**
+
+The authors thank all patients who participated in this study, the nursing staff at the Department of Periodontology, Liwan Branch, Hospital of Stomatology, Guangzhou Medical University, for their assistance with questionnaire distribution, and the medical experts who contributed to the content validation of the questionnaire.
+
+**Conflict of Interest Statement**
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+**Ethics Statement**
+
+The studies involving human participants were reviewed and approved by the Ethics Committee of the Hospital of Stomatology, Guangzhou Medical University (approval number: LCYJ2023055). All participants provided written informed consent prior to enrollment.
+
+**Data Availability Statement**
+
+The raw data supporting the conclusions of this article will be made available by the authors upon reasonable request, without undue reservation.
 
 **REFERENCES**
 
@@ -173,16 +212,16 @@ Table 2. Basic patient characteristics and univariable analysis of factors assoc
 
 | Variable | Category | Total, *n* (%) | Sought professional information, *n* (%) | Did not seek professional information, *n* (%) | *P* |
 | --- | --- | --- | --- | --- | --- |
-| Sex | Female | 43 (65.15) | 19 (44.19) | 24 (55.81) | 0.956 |
-| Age | <45 years | 40 (60.61) | 18 (45.00) | 22 (55.00) | 0.831 |
-| Education level | Undergraduate or above | 50 (75.76) | 26 (52.00) | 24 (48.00) | 0.022 |
-| Marital status | Married | 48 (72.73) | 22 (45.83) | 26 (54.17) | 0.653 |
+| Sex | Female | 43 (65.15) | 19 (44.19) | 24 (55.81) | 1.000 |
+| Age | <45 years | 40 (60.61) | 18 (45.00) | 22 (55.00) | 1.000 |
+| Education level | Undergraduate or above | 50 (75.76) | 26 (52.00) | 24 (48.00) | 0.023 |
+| Marital status | Married | 48 (72.73) | 22 (45.83) | 26 (54.17) | 0.782 |
 | Annual household income | <300,000 CNY | 36 (54.55) | 12 (33.33) | 24 (66.67) | 0.045 |
 |  | ≥300,000 CNY | 15 (22.73) | 9 (60.00) | 6 (40.00) |  |
 |  | Preferred not to answer | 15 (22.73) | 8 (53.33) | 7 (46.67) |  |
-| Medical insurance type | Employee medical insurance | 33 (50.00) | 15 (45.45) | 18 (54.55) | 0.768 |
-| Time since first dental treatment | <5 years | 47 (71.21) | 21 (44.68) | 26 (55.32) | 0.856 |
-| Regular dental checkups | Yes | 50 (75.76) | 23 (46.00) | 27 (54.00) | 0.593 |
-| First-time surgical treatment | Yes | 46 (69.70) | 19 (41.30) | 27 (58.70) | 0.574 |
+| Medical insurance type | Employee medical insurance | 33 (50.00) | 15 (45.45) | 18 (54.55) | 1.000 |
+| Time since first dental treatment | <5 years | 47 (71.21) | 21 (44.68) | 26 (55.32) | 1.000 |
+| Regular dental checkups | Yes | 50 (75.76) | 23 (46.00) | 27 (54.00) | 0.579 |
+| First-time surgical treatment | Yes | 46 (69.70) | 19 (41.30) | 27 (58.70) | 0.594 |
 
 > Note: *N* = 66. Data are presented as *n* (%). Professional information seeking was defined as obtaining preoperative surgery-related information from the attending doctor or nurse and was used as the proxy indicator of awareness (dependent variable). *P* < 0.05 was considered statistically significant. "Preferred not to answer" was not included in the Fisher's exact calculation. CNY, Chinese yuan.
