@@ -34,10 +34,6 @@ The exclusion criteria were as follows: (1) severe systemic disease, including u
 
 A senior nurse and medical students in the research team served as investigators. Before the formal survey, all investigators received standardized training on the study's purpose and participant eligibility criteria. The electronic questionnaire was distributed through WeChat. Each IP address or WeChat account was allowed to submit the questionnaire only once, and all items had to be completed before submission to avoid missing data. Questionnaires were considered invalid if the completion time was ≤120 s, information was incomplete or incorrect, or responses were highly repetitive. A total of 72 questionnaires were distributed, and 66 valid questionnaires were collected, yielding an effective response rate of 91.7%. During data collection and analysis, questionnaire data were independently checked by two researchers before statistical analysis. The sample selection process is shown in Figure 1.
 
-![Figure_1](figures/Figure_1.png)
-
-> Figure 1. Flowchart of sample selection. Among 2,876 patients who received periodontal surgery, 72 eligible patients were identified according to the inclusion and exclusion criteria and invited to complete the questionnaire. Six invalid questionnaires were excluded after quality control, and 66 valid questionnaires were included in the final analysis.
-
 **Questionnaire**
 
 The questionnaire was developed with reference to the WHO oral health report, the Fourth National Oral Health Survey of China, and relevant domestic and international literature (9–12). After the initial questionnaire was drafted, six medical experts from dentistry and nursing were invited to evaluate content validity. The scale-level content validity index (S-CVI) was 0.98. A pilot survey was then conducted among 10 conveniently selected patients to assess whether each item was easy to understand and to reduce ambiguity. Cronbach's alpha was 0.813, indicating good reliability (13).
@@ -62,17 +58,9 @@ Among the included patients, women (65.15%), patients aged 18–44 years (60.61%
 
 Logistic regression showed that education level and annual household income were independent positive factors associated with professional information seeking (proxy indicator of awareness) (OR > 1, *P* < 0.05). Patients with higher education and higher income were more likely to seek professional information before surgery. Age and sex did not significantly affect this outcome (*P* > 0.05). Details are shown in Figure 2.
 
-![Figure_2](figures/Figure_2.png)
-
-> Figure 2. Logistic regression forest plot of factors associated with professional information seeking (proxy indicator of awareness). Blue solid dots indicate *P* < 0.05, and light blue dots indicate *P* ≥ 0.05. Horizontal lines indicate 95% confidence intervals, and the vertical dashed line indicates OR = 1.
-
 **Associations among preoperative anxiety, postoperative reactions, psychological burden, and surgical willingness**
 
 Preoperative anxiety level was positively associated with postoperative reactions (*P* = 0.008). In the no-anxiety group, 60.0% of patients reported no specific postoperative discomfort. In the mild-anxiety group, 67.4% reported mild symptoms. All patients in the moderate-anxiety group reported mild symptoms. Preoperative anxiety was also positively associated with the influence of psychological burden on decision-making (*P* = 0.001). Only 25.0% of patients in the no-anxiety group reported that psychological burden affected their surgical choice. In contrast, this proportion increased to 69.8% in the mild-anxiety group and 100.0% in the moderate-anxiety group. The association between postoperative reactions and willingness to undergo future surgery was the most significant (*P* < 0.001). In the group without postoperative discomfort, 76.0% reported that the experience would not affect future surgical decisions. In the mild-symptom group, 70.0% reported a mild influence. The patient with obvious discomfort (*n* = 1) reported a mild influence. Details are shown in Figure 3.
-
-![Figure_3](figures/Figure_3.png)
-
-> Figure 3. Associations among preoperative anxiety, postoperative reactions, psychological burden, and willingness to undergo future surgery. A: Distribution of preoperative anxiety levels and postoperative reactions. B: Distribution of preoperative anxiety levels and the influence of psychological burden on surgical choice. C: Distribution of postoperative reactions and willingness to undergo future surgery. Stacked bar charts show percentages; numbers inside bars indicate actual counts, and numbers above bars indicate the total sample size of each group. *P* values were obtained from Fisher-Freeman-Halton tests for corresponding categorical variables.
 
 **Discussion**
 
@@ -92,61 +80,71 @@ Patients with GR showed a generally positive attitude toward seeking information
 
 **REFERENCES**
 
-1. Reis MBL, Mandetta CMR, Dantas CDF, Marañón-Vásquez G, Taba M Jr, de Souza SLS, et al. Root coverage of gingival recessions with non-carious cervical lesions: A controlled clinical trial. Clin Oral Investig. 2020;24(12):4583-4589. doi:10.1007/s00784-020-03325-1
+1. Reis MBL, Mandetta CMR, Dantas CDF, Marañón-Vásquez G, Taba M Jr, de Souza SLS, et al. Root coverage of gingival recessions with non-carious cervical lesions: A controlled clinical trial. Clin Oral Investig (2020) 24:4583–9. doi: 10.1007/s00784-020-03325-1
 
-2. Santamaria MP, Miguel MMV, Rossato A, Bonafé ACF, de Souza IV, Martins TM, et al. Volume-stable collagen matrix to treat gingival recession associated with non-carious cervical lesions: Randomized clinical trial. J Periodontol. 2026;97(1):62-73. doi:10.1002/jper.11386
+2. Santamaria MP, Miguel MMV, Rossato A, Bonafé ACF, de Souza IV, Martins TM, et al. Volume-stable collagen matrix to treat gingival recession associated with non-carious cervical lesions: Randomized clinical trial. J Periodontol (2026) 97:62–73. doi: 10.1002/jper.11386
 
-3. Cortellini P, Bissada NF. Mucogingival conditions in the natural dentition: Narrative review, case definitions, and diagnostic considerations. J Periodontol. 2018;89(Suppl 1):S204-S213. doi:10.1002/JPER.16-0671
+3. Cortellini P, Bissada NF. Mucogingival conditions in the natural dentition: Narrative review, case definitions, and diagnostic considerations. J Periodontol (2018) 89(Suppl 1):S204–13. doi: 10.1002/JPER.16-0671
 
-4. Marschner F, Lechte C, Kanzow P, Hraský V, Pfister W. Systematic review and meta-analysis on prevalence and risk factors for gingival recession. J Dent. 2025;155:105645. doi:10.1016/j.jdent.2025.105645
+4. Marschner F, Lechte C, Kanzow P, Hraský V, Pfister W. Systematic review and meta-analysis on prevalence and risk factors for gingival recession. J Dent (2025) 155:105645. doi: 10.1016/j.jdent.2025.105645
 
-5. Zucchelli G, Mounssif I. Periodontal plastic surgery. Periodontol 2000. 2015;68(1):333-368. doi:10.1111/prd.12059
+5. Zucchelli G, Mounssif I. Periodontal plastic surgery. Periodontol 2000 (2015) 68:333–68. doi: 10.1111/prd.12059
 
-6. Yılmaz M, Oduncuoğlu BF, Nişancı Yılmaz MN. Evaluation of patients' perception of gingival recession, its impact on oral health-related quality of life, and acceptance of treatment plan. Acta Odontol Scand. 2020;78(6):454-462. doi:10.1080/00016357.2020.1758773
+6. Yılmaz M, Oduncuoğlu BF, Nişancı Yılmaz MN. Evaluation of patients' perception of gingival recession, its impact on oral health-related quality of life, and acceptance of treatment plan. Acta Odontol Scand (2020) 78:454–62. doi: 10.1080/00016357.2020.1758773
 
-7. Miller TA. Health literacy and adherence to medical treatment in chronic and acute illness: A meta-analysis. Patient Educ Couns. 2016;99(7):1079-1086. doi:10.1016/j.pec.2016.01.020
+7. Miller TA. Health literacy and adherence to medical treatment in chronic and acute illness: A meta-analysis. Patient Educ Couns (2016) 99:1079–86. doi: 10.1016/j.pec.2016.01.020
 
-8. McCaffery KJ, Holmes-Rovner M, Smith SK, Rovner D, Nutbeam D, Clayman ML, et al. Addressing health literacy in patient decision aids. BMC Med Inform Decis Mak. 2013;13(Suppl 2):S10. doi:10.1186/1472-6947-13-S2-S10
+8. McCaffery KJ, Holmes-Rovner M, Smith SK, Rovner D, Nutbeam D, Clayman ML, et al. Addressing health literacy in patient decision aids. BMC Med Inform Decis Mak (2013) 13(Suppl 2):S10. doi: 10.1186/1472-6947-13-S2-S10
 
-9. An R, Chen W, Li S, Wu Z, Liu M, Sohaib M. Assessment of the oral health literacy and oral health behaviors among nurses in China: A cross-sectional study. BMC Oral Health. 2022;22:602. doi:10.1186/s12903-022-02658-5
+9. An R, Chen W, Li S, Wu Z, Liu M, Sohaib M. Assessment of the oral health literacy and oral health behaviors among nurses in China: A cross-sectional study. BMC Oral Health (2022) 22:602. doi: 10.1186/s12903-022-02658-5
 
-10. Deeden S, Vichayanrat T, Asvanund Y, Prapansilp W, Phonghanyudh A. Knowledge, attitudes, and practices towards ECC prevention in Thai medical personnel. Int Dent J. 2024;74:253-259. doi:10.1016/j.identj.2023.08.008
+10. Deeden S, Vichayanrat T, Asvanund Y, Prapansilp W, Phonghanyudh A. Knowledge, attitudes, and practices towards ECC prevention in Thai medical personnel. Int Dent J (2024) 74:253–9. doi: 10.1016/j.identj.2023.08.008
 
-11. Tsui PK, Chau PH, Wong JYH, Wang MP, Gao X, Lam OLT, et al. Oral care knowledge, attitude and practice among nursing staff in acute hospital settings in Hong Kong. PLoS One. 2023;18:e0289953. doi:10.1371/journal.pone.0289953
+11. Tsui PK, Chau PH, Wong JYH, Wang MP, Gao X, Lam OLT, et al. Oral care knowledge, attitude and practice among nursing staff in acute hospital settings in Hong Kong. PLoS One (2023) 18:e0289953. doi: 10.1371/journal.pone.0289953
 
-12. Tan L, Lin Z, Zhang Y, Sun N, Ding Q, Feng H, et al. Information-knowledge-attitude-practice model in non-suicidal self-injury behaviours of adolescence and young adults with major depressive disorder: Randomised controlled trials. J Psychiatr Ment Health Nurs. 2025;32:766-773. doi:10.1111/jpm.13154
+12. Tan L, Lin Z, Zhang Y, Sun N, Ding Q, Feng H, et al. Information-knowledge-attitude-practice model in non-suicidal self-injury behaviours of adolescence and young adults with major depressive disorder: Randomised controlled trials. J Psychiatr Ment Health Nurs (2025) 32:766–73. doi: 10.1111/jpm.13154
 
-13. Jalali A, Naghibzadeh A, Mohammadi MM, Rostami M, Kalhory P, Taghvostani NM, et al. Translation and validation of the Persian version of the Nursing Practice Readiness Scale (NPRS) for new graduate nurses. BMC Nurs. 2024;23:606. doi:10.1186/s12912-024-02434-6
+13. Jalali A, Naghibzadeh A, Mohammadi MM, Rostami M, Kalhory P, Taghvostani NM, et al. Translation and validation of the Persian version of the Nursing Practice Readiness Scale (NPRS) for new graduate nurses. BMC Nurs (2024) 23:606. doi: 10.1186/s12912-024-02434-6
 
-14. Wittink H, Oosterhaven J. Patient education and health literacy. Musculoskelet Sci Pract. 2018;38:120-127. doi:10.1016/j.msksp.2018.06.004
+14. Wittink H, Oosterhaven J. Patient education and health literacy. Musculoskelet Sci Pract (2018) 38:120–7. doi: 10.1016/j.msksp.2018.06.004
 
-15. Margat A, Gagnayre R, Lombrail P, de Andrade V, Azogui-Levy S. Interventions en littératie en santé et éducation thérapeutique : une revue de la littérature [Health literacy and patient education interventions: A review]. Sante Publique. 2017;29(6):811-820. doi:10.3917/spub.176.0811
+15. Margat A, Gagnayre R, Lombrail P, de Andrade V, Azogui-Levy S. Interventions en littératie en santé et éducation thérapeutique : une revue de la littérature [Health literacy and patient education interventions: A review]. Sante Publique (2017) 29:811–20. doi: 10.3917/spub.176.0811
 
-16. Jönsson B, Ohrn K, Lindberg P, Oscarson N. Evaluation of an individually tailored oral health educational programme on periodontal health. J Clin Periodontol. 2010;37(10):912-919. doi:10.1111/j.1600-051X.2010.01590.x
+16. Jönsson B, Ohrn K, Lindberg P, Oscarson N. Evaluation of an individually tailored oral health educational programme on periodontal health. J Clin Periodontol (2010) 37:912–9. doi: 10.1111/j.1600-051X.2010.01590.x
 
-17. Stormacq C, Van den Broucke S, Wosinski J. Does health literacy mediate the relationship between socioeconomic status and health disparities? Integrative review. Health Promot Int. 2019;34(5):e1-e17. doi:10.1093/heapro/day062
+17. Stormacq C, Van den Broucke S, Wosinski J. Does health literacy mediate the relationship between socioeconomic status and health disparities? Integrative review. Health Promot Int (2019) 34:e1–17. doi: 10.1093/heapro/day062
 
-18. Xiao F, Yu D, Huang Y, Zhang T, He H, Luo W, et al. Oral health knowledge, attitudes, and practices and associated factors among non-dental healthcare professionals in South China: A cross-sectional study. Front Public Health. 2026;14:1811364. doi:10.3389/fpubh.2026.1811364
+18. Xiao F, Yu D, Huang Y, Zhang T, He H, Luo W, et al. Oral health knowledge, attitudes, and practices and associated factors among non-dental healthcare professionals in South China: A cross-sectional study. Front Public Health (2026) 14:1811364. doi: 10.3389/fpubh.2026.1811364
 
-19. Amer MS, Mossa SM, Abdul-Rahman SA, Mabrook RA, Raafat VA. Relationship between socioeconomic factors and cognitive function in elderly caregivers. J Am Geriatr Soc. 2015;63(4):818-820. doi:10.1111/jgs.13373
+19. Amer MS, Mossa SM, Abdul-Rahman SA, Mabrook RA, Raafat VA. Relationship between socioeconomic factors and cognitive function in elderly caregivers. J Am Geriatr Soc (2015) 63:818–20. doi: 10.1111/jgs.13373
 
-20. Wright KE, Luz DS, Dragan IF. Applying patient behavioral assessment to enhance dental implant treatment outcomes. Compend Contin Educ Dent. 2025;46(7):336-342.
+20. Wright KE, Luz DS, Dragan IF. Applying patient behavioral assessment to enhance dental implant treatment outcomes. Compend Contin Educ Dent (2025) 46:336–42.
 
-21. Seligman LD, Hovey JD, Chacon K, Ollendick TH. Dental anxiety: An understudied problem in youth. Clin Psychol Rev. 2017;55:25-40. doi:10.1016/j.cpr.2017.04.004
+21. Seligman LD, Hovey JD, Chacon K, Ollendick TH. Dental anxiety: An understudied problem in youth. Clin Psychol Rev (2017) 55:25–40. doi: 10.1016/j.cpr.2017.04.004
 
-22. Kassem El Hajj H, Fares Y, Abou-Abbas L. Assessment of dental anxiety and dental phobia among adults in Lebanon. BMC Oral Health. 2021;21(1):48. doi:10.1186/s12903-021-01409-2
+22. Kassem El Hajj H, Fares Y, Abou-Abbas L. Assessment of dental anxiety and dental phobia among adults in Lebanon. BMC Oral Health (2021) 21:48. doi: 10.1186/s12903-021-01409-2
 
-23. Tellez M, Potter CM, Kinner DG, Jensen D, Waldron E, Heimberg RG, et al. Computerized tool to manage dental anxiety: A randomized clinical trial. J Dent Res. 2015;94(9 Suppl):174S-180S. doi:10.1177/0022034515598134
+23. Tellez M, Potter CM, Kinner DG, Jensen D, Waldron E, Heimberg RG, et al. Computerized tool to manage dental anxiety: A randomized clinical trial. J Dent Res (2015) 94(Suppl 9):174S–80S. doi: 10.1177/0022034515598134
 
-24. Armfield JM, Heaton LJ. Management of fear and anxiety in the dental clinic: A review. Aust Dent J. 2013;58(4):390-407. doi:10.1111/adj.12118
+24. Armfield JM, Heaton LJ. Management of fear and anxiety in the dental clinic: A review. Aust Dent J (2013) 58:390–407. doi: 10.1111/adj.12118
 
-25. Gordon D, Heimberg RG, Tellez M, Ismail AI. A critical review of approaches to the treatment of dental anxiety in adults. J Anxiety Disord. 2013;27(4):365-378. doi:10.1016/j.janxdis.2013.04.002
+25. Gordon D, Heimberg RG, Tellez M, Ismail AI. A critical review of approaches to the treatment of dental anxiety in adults. J Anxiety Disord (2013) 27:365–78. doi: 10.1016/j.janxdis.2013.04.002
 
-26. Parameter on periodontitis associated with systemic conditions. J Periodontol. 2000;71(Suppl 5S):876-879. doi:10.1902/jop.2000.71.5-S.876
+26. Parameter on periodontitis associated with systemic conditions. J Periodontol (2000) 71(Suppl 5S):876–9. doi: 10.1902/jop.2000.71.5-S.876
 
-27. Qiao F, Zhang M, Zhang T, Zhu D. Dental anxiety is related to postoperative symptoms in third molar surgery. Front Psychiatry. 2022;13:956566. doi:10.3389/fpsyt.2022.956566
+27. Qiao F, Zhang M, Zhang T, Zhu D. Dental anxiety is related to postoperative symptoms in third molar surgery. Front Psychiatry (2022) 13:956566. doi: 10.3389/fpsyt.2022.956566
 
-28. Nam HS, Yoo HJ, Ho JPY, Kim YB, Lee YS. Preoperative education on realistic expectations improves the satisfaction of patients with central sensitization after total knee arthroplasty: A randomized-controlled trial. Knee Surg Sports Traumatol Arthrosc. 2023;31(11):4705-4715. doi:10.1007/s00167-023-07487-9
+28. Nam HS, Yoo HJ, Ho JPY, Kim YB, Lee YS. Preoperative education on realistic expectations improves the satisfaction of patients with central sensitization after total knee arthroplasty: A randomized-controlled trial. Knee Surg Sports Traumatol Arthrosc (2023) 31:4705–15. doi: 10.1007/s00167-023-07487-9
+
+**Figure captions**
+
+Figure 1. Flowchart of sample selection. Among 2,876 patients who received periodontal surgery, 72 eligible patients were identified according to the inclusion and exclusion criteria and invited to complete the questionnaire. Six invalid questionnaires were excluded after quality control, and 66 valid questionnaires were included in the final analysis.
+
+Figure 2. Logistic regression forest plot of factors associated with professional information seeking (proxy indicator of awareness). Blue solid dots indicate *P* < 0.05, and light blue dots indicate *P* ≥ 0.05. Horizontal lines indicate 95% confidence intervals, and the vertical dashed line indicates OR = 1.
+
+Figure 3. Associations among preoperative anxiety, postoperative reactions, psychological burden, and willingness to undergo future surgery. A: Distribution of preoperative anxiety levels and postoperative reactions. B: Distribution of preoperative anxiety levels and the influence of psychological burden on surgical choice. C: Distribution of postoperative reactions and willingness to undergo future surgery. Stacked bar charts show percentages; numbers inside bars indicate actual counts, and numbers above bars indicate the total sample size of each group. *P* values were obtained from Fisher-Freeman-Halton tests for corresponding categorical variables.
+
+**Tables**
 
 Table 1. Preoperative information seeking and patient awareness of periodontal mucogingival surgery
 
