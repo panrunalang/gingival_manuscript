@@ -169,7 +169,7 @@ The raw data supporting the conclusions of this article will be made available b
 
 25. Gordon D, Heimberg RG, Tellez M, Ismail AI. A critical review of approaches to the treatment of dental anxiety in adults. J Anxiety Disord (2013) 27:365–78. doi: 10.1016/j.janxdis.2013.04.002
 
-26. Parameter on periodontitis associated with systemic conditions. J Periodontol (2000) 71(Suppl 5S):876–9. doi: 10.1902/jop.2000.71.5-S.876
+26. American Academy of Periodontology. Parameter on periodontitis associated with systemic conditions. J Periodontol (2000) 71(Suppl 5S):876–9. doi: 10.1902/jop.2000.71.5-S.876
 
 27. Qiao F, Zhang M, Zhang T, Zhu D. Dental anxiety is related to postoperative symptoms in third molar surgery. Front Psychiatry (2022) 13:956566. doi: 10.3389/fpsyt.2022.956566
 

@@ -10,10 +10,10 @@ variables = [
     'Age (≥45 vs\n<45 years)',
     'Sex (Female\nvs Male)',
 ]
-or_vals   = [3.21, 0.98, 1.12]
-ci_low    = [1.12, 0.94, 0.45]
-ci_high   = [9.21, 1.02, 2.79]
-p_vals    = [0.030, 0.312, 0.806]
+or_vals   = [3.21, 0.88, 1.12]
+ci_low    = [1.12, 0.31, 0.45]
+ci_high   = [9.21, 2.53, 2.79]
+p_vals    = [0.030, 0.817, 0.806]
 
 # Colors
 BG        = '#ffffff'
@@ -68,7 +68,7 @@ ax.set_yticks(y_positions)
 ax.set_yticklabels(variables, fontsize=8.5, color=TEXT_CLR)
 ax.set_ylim(-0.5, n - 0.5)
 ax.set_xscale('log')
-ax.set_xlim(0.3, 15)
+ax.set_xlim(0.2, 15)
 ax.set_xticks([0.5, 1, 2, 4, 8])
 ax.set_xticklabels(['0.5', '1', '2', '4', '8'], fontsize=8.5, color=TEXT_CLR)
 ax.set_xlabel('Odds Ratio (95% CI)', fontsize=9.5, color=TEXT_CLR, labelpad=4)
