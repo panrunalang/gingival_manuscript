@@ -1,12 +1,12 @@
 ---
-title: "Appendix S1. English Version of the Questionnaire"
+title: "Supporting Information S1 Questionnaire"
 output:
   word_document:
-    path: ./Supporting Information.docx
+    path: ./Supporting Information S1 Questionnaire.docx
     pandoc_args: ["--reference-doc=template.docx", "--variable", "Plain Table 5"]
 ---
 
-# Appendix S1. English Version of the Questionnaire
+# ASupporting Information S1 Questionnaire
 
 All items were single-choice questions.
 

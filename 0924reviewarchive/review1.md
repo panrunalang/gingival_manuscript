@@ -72,7 +72,7 @@ Methods 中说明问卷调查了以下内容：
 
 ---
 
-**5. 分类体系已经过时。**
+**5. 分类体系已经过时。** ✅
 
 研究使用了 Miller 1985 年的分类。
 
@@ -82,7 +82,7 @@ Methods 中说明问卷调查了以下内容：
 
 ---
 
-**6. 回顾性设计与回忆偏倚。**
+**6. 回顾性设计与回忆偏倚。** 
 
 患者接受手术的时间为2022年7月至2025年12月，而问卷是术后回顾性调查术前焦虑以及术前信息寻求行为。
 
@@ -98,7 +98,7 @@ Methods 中说明问卷调查了以下内容：
 
 ---
 
-**7. 术前焦虑由一个未经验证的单一条目测量。**
+**7. 术前焦虑由一个未经验证的单一条目测量。** ✅
 
 焦虑是三项关联分析中两项的暴露变量，但使用的是自行设计的四级单题，而不是 MDAS、Corah’s DAS、STAI 或 DFS 等经过验证的量表。
 
@@ -218,7 +218,7 @@ Methods 中说“所有条目必须填写完才能提交，从而避免缺失数
 
 ---
 
-**10. 没有介绍研究优势。**
+**10. 没有介绍研究优势。** ✅
 
 论文有比较坦诚的局限性部分，但没有相应说明研究优势。
 
@@ -233,7 +233,7 @@ Methods 中说“所有条目必须填写完才能提交，从而避免缺失数
 
 ---
 
-**11. 结论超出了研究设计能够支持的范围。**
+**11. 结论超出了研究设计能够支持的范围。** ✅
 
 “Preoperative psychological assessment and counseling should become routine components of mucogingival surgical care”
 
@@ -247,7 +247,7 @@ Methods 中说“所有条目必须填写完才能提交，从而避免缺失数
 
 ### Minor Comments
 
-**12. Figure 文件名称错误。**
+**12. Figure 文件名称错误。** ✅
 
 Figure 1.JPEG 实际是正文 Figure 2 的回归森林图；
 
@@ -259,7 +259,7 @@ Figure 3.JPEG 实际是正文 Figure 1 的样本筛选流程图。
 
 ---
 
-**13. P 值不一致。**
+**13. P 值不一致。** ✅
 
 正文中 anxiety–psychological burden 的关联报告为 P=0.001，而 Figure 3B 显示 P<0.001。
 
@@ -267,7 +267,7 @@ Figure 3.JPEG 实际是正文 Figure 1 的样本筛选流程图。
 
 ---
 
-**14. Table 2 不能独立理解。**
+**14. Table 2 不能独立理解。** ✅
 
 每个变量只显示了一个类别，而参照类别被省略，因此读者无法根据表格重构相应比较以及 P 值。
 
@@ -277,7 +277,7 @@ Figure 3.JPEG 实际是正文 Figure 1 的样本筛选流程图。
 
 ---
 
-**15. Table 1 没有报告术后反应分布。**
+**15. Table 1 没有报告术后反应分布。** ✅
 
 虽然术后反应属于 Part II 的条目，而且出现在 Figure 3 中，但 Table 1 中没有呈现。
 
@@ -285,7 +285,7 @@ Figure 3.JPEG 实际是正文 Figure 1 的样本筛选流程图。
 
 ---
 
-**16. Table 1 中的“Preoperative communication”。**
+**16. Table 1 中的“Preoperative communication”。** ✅
 
 问卷 Q12 有三个选项：
 
@@ -299,7 +299,7 @@ Table 1 只显示了两个类别。
 
 ---
 
-**17. 排除标准与报告变量表面上存在冲突。**
+**17. 排除标准与报告变量表面上存在冲突。** ✅
 
 排除标准包括“既往接受过 periodontal mucogingival surgery”，但 Table 2 显示20例患者并非第一次接受 periodontal surgery。
 
@@ -311,17 +311,17 @@ Table 1 只显示了两个类别。
 
 ---
 
-**18. 引文与论述不匹配。**
+**18. 引文与论述不匹配。** ✅
 
-第一，ref 19（Amer 等关于老年照护者社会经济因素和认知功能的研究）被用于支持“健康教育需要针对教育差异”的论点，关联不明显，应换成口腔健康素养相关文献。
+    第一，ref 19（Amer 等关于老年照护者社会经济因素和认知功能的研究）被用于支持“健康教育需要针对教育差异”的论点，关联不明显，应换成口腔健康素养相关文献。
 
-第二，“dental anxiety vicious cycle”这一经典概念引用了 ref 20 Wright 等。实际上这一概念来自 Berggren & Meyerson，并在 Armfield & Heaton（你们的 ref 24）中有所综述，应正确归属。
+    第二，“dental anxiety vicious cycle”这一经典概念引用了 ref 20 Wright 等。实际上这一概念来自 Berggren & Meyerson，并在 Armfield & Heaton（你们的 ref 24）中有所综述，应正确归属。
 
-第三，ref 26 为2000年的 AAP Parameter，用来支持全身因素与手术安全性的论述已经比较陈旧，建议使用更新文献。
+    第三，ref 26 为2000年的 AAP Parameter，用来支持全身因素与手术安全性的论述已经比较陈旧，建议使用更新文献。
 
 ---
 
-**19. 参考文献时效性与完整性。**
+**19. 参考文献时效性与完整性。** ✅
 
 审稿人专门进行了检查：
 
@@ -334,13 +334,13 @@ Table 1 只显示了两个类别。
 但需注意两点透明性：
 
 - ref 18（Xiao et al., Front Public Health 2026）与当前稿件有多名共同作者，并且属于近期同刊自引；
-- ref 27 可能也存在作者重叠。
+- ref 27 可能也存在作者重叠。【不重叠，审稿人看错了】
 
 请确认符合期刊关于自引的相关政策。
 
 ---
 
-**20. 缺少膜龈手术领域特异性文献。**
+**20. 缺少膜龈手术领域特异性文献。** ✅
 
 现有参考文献在 health literacy 和 dental anxiety 方面比较充分，但几乎没有讨论膜龈手术本身的患者报告结局和术后 morbidity。
 
@@ -353,7 +353,7 @@ Table 1 只显示了两个类别。
 
 ---
 
-**21. Novelty 的表述。**
+**21. Novelty 的表述。** ✅
 
 “These findings have not been previously reported in retrospective studies of mucogingival surgery among patients with GR”
 
@@ -365,7 +365,7 @@ Table 1 只显示了两个类别。
 
 ---
 
-**22. 未遵循报告规范。**
+**22. 未遵循报告规范。** ✅
 
 建议按照 STROBE observational studies guideline 准备稿件。
 
@@ -375,7 +375,7 @@ Table 1 只显示了两个类别。
 
 ---
 
-**23. 伦理审批时间问题。**
+**23. 伦理审批时间问题。** ✅
 
 伦理批准编号 LCYJ2023055 看起来来自2023年，但研究纳入期从2022年7月开始。
 
@@ -389,7 +389,7 @@ Table 1 只显示了两个类别。
 
 ---
 
-**24. Data availability statement 不一致。**
+**24. Data availability statement 不一致。**  【后面改】
 
 Frontiers 投稿系统中写的是原始贡献均包含在文章/补充材料中；
 
@@ -401,7 +401,7 @@ Frontiers 投稿系统中写的是原始贡献均包含在文章/补充材料中
 
 ---
 
-**25. Abstract。**
+**25. Abstract。** ✅
 
 建议：
 
@@ -417,7 +417,7 @@ d. 缩短 Conclusions，目前基本重复了一遍 Results。
 
 ---
 
-**26. Title。**
+**26. Title。** 【后面改】
 
 建议使用信息量更高的标题，例如：
 
@@ -425,7 +425,7 @@ d. 缩短 Conclusions，目前基本重复了一遍 Results。
 
 ---
 
-**27. 结构和语言细节。**
+**27. 结构和语言细节。** 【后面改】
 
 Conclusion 目前直接接在 Discussion 中，没有单独标题，应增加“Conclusions”小标题。
 
