@@ -1,12 +1,12 @@
 ---
-title: "Supporting Information S1 Questionnaire"
+title: "Supplementary Material S3 Questionnaire"
 output:
   word_document:
-    path: ./Supporting Information S1 Questionnaire.docx
+    path: ./Supplementary Material S3 Questionnaire.docx
     pandoc_args: ["--reference-doc=template.docx", "--variable", "Plain Table 5"]
 ---
 
-# Supporting Information S1 Questionnaire
+# Supplementary Material S3 Questionnaire
 
 All items were single-choice questions.
 
