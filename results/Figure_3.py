@@ -3,7 +3,7 @@ import csv
 from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
-from scipy.stats import kendalltau
+from scipy.stats import chi2
 
 # ==================== PARAMETERS ====================
 
@@ -82,9 +82,14 @@ for v in fsurg_raw:
     elif '轻微' in v:        fs_score.append(1)
     elif '比较' in v:        fs_score.append(2)
 
-tau_a, p_a = kendalltau(anx_score, post_score)
-tau_b, p_b = kendalltau(anx_score, psych_score)
-tau_c, p_c = kendalltau(post_score, fs_score)
+def linear_by_linear_p(x, y):
+    statistic = (len(x) - 1) * np.corrcoef(x, y)[0, 1] ** 2
+    return chi2.sf(statistic, df=1)
+
+
+p_a = linear_by_linear_p(np.array(anx_score), np.array(post_score))
+p_b = linear_by_linear_p(np.array(anx_score), np.array(psych_score))
+p_c = linear_by_linear_p(np.array(post_score), np.array(fs_score))
 
 # ==================== CROSS-TAB DATA ====================
 
@@ -148,7 +153,7 @@ panels = [
         'row_labels': post_short,
         'col_labels': ['No influence', 'Mild influence', 'Moderate influence'],
         'colors': [C3_LIGHT, C3_MID, C3_DARK],
-        'legend_title': 'Future surgery willingness',
+        'legend_title': 'Influence on future surgery',
         'ncol_legend': 1,
         'p': p_c,
     },
@@ -193,8 +198,7 @@ for i, pn in enumerate(panels):
     if p_val < 0.001:
         p_text = r'$P$ < 0.001'
     else:
-        p_trunc = int(p_val * 1000) / 1000
-        p_text = f'$P$ = {p_trunc:.3f}'
+        p_text = f'$P$ = {p_val:.3f}'
     ax.text((n_rows - 1) / 2, 114, p_text, ha='center', va='center',
             fontsize=8, color=TEXT_CLR)
 
@@ -241,11 +245,11 @@ for i, pn in enumerate(panels):
 
 # ==================== SAVE ====================
 
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_3.jpg')
-fig.savefig(out, dpi=DPI, format='jpeg', facecolor=BG, edgecolor='none', pil_kwargs={'quality': 95})
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_3.png')
+fig.savefig(out, dpi=DPI, format='png', facecolor=BG, edgecolor='none')
 plt.close()
 
 print(f'Saved {out}')
-print(f'Panel A: Kendall τ = {tau_a:.3f}, p = {p_a:.4f}')
-print(f'Panel B: Kendall τ = {tau_b:.3f}, p = {p_b:.4f}')
-print(f'Panel C: Kendall τ = {tau_c:.3f}, p = {p_c:.4f}')
+print(f'Panel A: linear-by-linear P = {p_a:.4f}')
+print(f'Panel B: linear-by-linear P = {p_b:.4f}')
+print(f'Panel C: linear-by-linear P = {p_c:.4f}')
