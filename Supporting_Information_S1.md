@@ -6,7 +6,7 @@ output:
     pandoc_args: ["--reference-doc=template.docx", "--variable", "Plain Table 5"]
 ---
 
-# ASupporting Information S1 Questionnaire
+# Supporting Information S1 Questionnaire
 
 All items were single-choice questions.
 
@@ -64,7 +64,7 @@ All items were single-choice questions.
    - D. Reimbursed by employer
    - E. Commercial insurance
 
-## Part II. Awareness of Periodontal Surgery
+## Part II. Preoperative Information, Understanding, and Perioperative Experience
 
 10. Did you learn about the surgery through any channels before the operation?
     - A. Internet
