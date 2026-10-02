@@ -162,7 +162,7 @@ Discussion 中与使用经过验证量表的研究进行比较时，也应降低
 
 目前 Limitations 中“estimated events per variable were insufficient”的表述并不精确。
 
-**（5）数据收集后的分类合并。**
+**（5）数据收集后的分类合并。** 
 
 教育4级合并为2级、收入5级合并为2级、年龄4级合并为2级，以及首次就诊时间也被二分类。
 
@@ -183,7 +183,7 @@ Discussion 中与使用经过验证量表的研究进行比较时，也应降低
 - 进行多重比较校正；
 - 或明确说明这些分析均属于探索性、假设生成性分析。
 
-**（8）信度系数的问题。**
+**（8）信度系数的问题。** ✅
 
 你们对一个包含信息来源、保险类型、婚姻状况等名义变量，而且跨越三个不同概念领域的问卷计算了整体 Cronbach’s α=0.813。
 
@@ -195,6 +195,8 @@ Cronbach’s α 假设量表具有单维性，而且条目至少是有序水平�
 - 或使用更适合的信度指标。
 
 另外，还应说明 S-CVI=0.98 到底是 S-CVI/Ave 还是 S-CVI/UA，并报告 I-CVI。
+
+【We thank the reviewer for this comment. We agree that Cronbach's α is inappropriate for a questionnaire comprising nominal items across distinct domains. As the instrument is a survey rather than a unidimensional scale, we have removed the overall α (0.813) and now state that internal consistency is not applicable. We have also removed the S-CVI value, as we were unable to verify the calculation method (S-CVI/Ave vs. S-CVI/UA) or provide item-level I-CVI, and we now describe only the expert review process. The lack of formal psychometric evaluation has been added to the Limitations section.】
 
 ---
 
@@ -387,9 +389,11 @@ Table 1 只显示了两个类别。
 
 应与电子问卷本身的同意程序区分开来。通过 WeChat 完成问卷时，很可能采用的是电子知情同意，应明确描述。
 
+【感谢专家的仔细审阅与宝贵意见，很抱歉原文表述不清造成误解。文中“2022年7月”指患者临床接收膜龈手术时间，并非本研究科研数据提取时间，本研究科研相关的数据提取、受试者招募工作均在2023年伦理批件LCYJ2023055获批之后开展。此外，我们根据您的建议修改xxx行区分两类知情：所有患者就诊时签署常规诊疗书面知情同意；本研究微信电子问卷，在填写前获取线上电子知情同意，稿件已修改，再次感谢您的建议。】
+
 ---
 
-**24. Data availability statement 不一致。**  【狡辩回复】
+**24. Data availability statement 不一致。**  ⚠️修改投稿系统选项
 
 Frontiers 投稿系统中写的是原始贡献均包含在文章/补充材料中；
 
