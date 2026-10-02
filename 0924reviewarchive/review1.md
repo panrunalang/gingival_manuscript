@@ -26,7 +26,7 @@ b. 保留当前结局变量，但在全文中将其明确命名为“professiona
 
 ---
 
-**2. 信息来源条目为单选题。**
+**2. 信息来源条目为单选题。** ✅    
 
 Supporting Information 中 Q10 要求患者只能在 Internet / people around me / attending doctor or nurse / did not learn 中选择一个答案。
 
@@ -40,7 +40,7 @@ Supporting Information 中 Q10 要求患者只能在 Internet / people around me
 
 ---
 
-**3. 存在收集后未报告的“孤立问卷条目”。**
+**3. 存在收集后未报告的“孤立问卷条目”。** ✅ 
 
 Methods 中说明问卷调查了以下内容：
 
