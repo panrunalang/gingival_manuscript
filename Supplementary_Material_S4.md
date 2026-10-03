@@ -58,4 +58,17 @@ Table S3. Model sample sizes and overall tests
 | Age | 66 | 30 | 3 | 10.00 | 0.172 | 0.197 |
 | Sex | 66 | 30 | 3 | 10.00 | 0.200 | 0.242 |
 
-Note: EPV is the number of outcome events divided by the number of predictor parameters in the adjusted model, excluding the intercept. Age contributes two parameters and sex one. Trend and binary target factors contribute one parameter; marital status contributes three and insurance four. Income models exclude 14 “preferred not to answer” responses; marital models exclude one such response; these patients remain in other models. No numerical values are imputed. NE indicates separation in ordinary logistic regression; Firth overall tests are reported in Table S2. Factors are assessed separately and do not adjust for one another.
+Note: EPV is the number of outcome events divided by the number of predictor parameters in the adjusted model, excluding the intercept. Age contributes two parameters and sex one. Trend and binary target factors contribute one parameter; marital status contributes three and insurance four. Primary income models treat 14 “preferred not to answer” responses (21.2% of 66 patients) as missing income and exclude them; marital models exclude one such response; these patients remain in other models. No numerical values are imputed. NE indicates separation in ordinary logistic regression; Firth overall tests are reported in Table S2. Factors are assessed separately and do not adjust for one another.
+
+Table S4. Income sensitivity analysis retaining missing responses as a separate category
+
+| Income category vs <150,000 CNY | N | Professional source, n | Adjusted OR (95% CI) | P |
+| --- | ---: | ---: | --- | ---: |
+| <150,000 | 17 | 8 | Reference | — |
+| 150,000–300,000 | 19 | 10 | 1.22 (0.33–4.71) | 0.764 |
+| 300,000–500,000 | 9 | 4 | 1.56 (0.28–9.21) | 0.613 |
+| 500,000–1,000,000 | 6 | 3 | 1.88 (0.28–13.76) | 0.513 |
+| >1,000,000 | 1 | 0 | 0.90 (0.01–26.58) | 0.955 |
+| Preferred not to answer (missing income) | 14 | 5 | 0.38 (0.06–1.86) | 0.239 |
+
+Note: All 66 patients (30 professional-source responses) were retained. The five original income brackets and preferred not to answer were entered as six nominal categories, with <150,000 CNY as reference; missing responses were not assigned an income score or imputed. Firth logistic regression adjusted for age (18–44, 45–59, >60 years) and sex because the >1,000,000 CNY category contained one patient and no professional-source responses. CIs are profile penalized-likelihood intervals; P values are penalized likelihood-ratio tests. The overall six-category income test had five degrees of freedom (P = 0.643). The adjusted model had eight predictor parameters (EPV = 3.75). CNY, Chinese yuan.

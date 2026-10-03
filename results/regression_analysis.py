@@ -155,7 +155,7 @@ def effect_text(effect):
     return f"{effect['OR']:.2f} ({effect['CI_low']:.2f}–{effect['CI_high']:.2f})"
 
 
-def write_supplement(models):
+def write_supplement(models, income_sensitivity):
     lines = ['# Supplementary Material S4', '',
              'Table S1. Crude and age- and sex-adjusted associations with professional information seeking', '',
              '| Factor and comparison | Crude OR (95% CI) | P | Adjusted OR (95% CI) | P |',
@@ -199,9 +199,23 @@ def write_supplement(models):
         lines.append(f"| {name} | {model['n']} | {model['events']} | {model['predictor_parameters']} | {model['EPV']:.2f} | {pvals[0]} | {pvals[1]} |")
     lines += ['', 'Note: EPV is the number of outcome events divided by the number of predictor parameters in the adjusted model, excluding the intercept. '
               'Age contributes two parameters and sex one. Trend and binary target factors contribute one parameter; marital status contributes three and insurance four. '
-              'Income models exclude 14 “preferred not to answer” responses; marital models exclude one such response; these patients remain in other models. '
+              'Primary income models treat 14 “preferred not to answer” responses (21.2% of 66 patients) as missing income and exclude them; marital models exclude one such response; these patients remain in other models. '
               'No numerical values are imputed. NE indicates separation in ordinary logistic regression; Firth overall tests are reported in Table S2. '
               'Factors are assessed separately and do not adjust for one another.']
+    lines += ['', 'Table S4. Income sensitivity analysis retaining missing responses as a separate category', '',
+              '| Income category vs <150,000 CNY | N | Professional source, n | Adjusted OR (95% CI) | P |',
+              '| --- | ---: | ---: | --- | ---: |']
+    for label, count, effect in zip(income_sensitivity['levels'].values(),
+                                   income_sensitivity['category_counts'],
+                                   [None] + income_sensitivity['Firth']['effects']):
+        estimate = 'Reference' if effect is None else effect_text(effect)
+        p = '—' if effect is None else f"{effect['PLR_p']:.3f}"
+        lines.append(f"| {label} | {count['n']} | {count['yes']} | {estimate} | {p} |")
+    lines += ['', 'Note: All 66 patients (30 professional-source responses) were retained. The five original income brackets and preferred not to answer were entered as six nominal categories, with <150,000 CNY as reference; missing responses were not assigned an income score or imputed. '
+              'Firth logistic regression adjusted for age (18–44, 45–59, >60 years) and sex because the >1,000,000 CNY category contained one patient and no professional-source responses. '
+              'CIs are profile penalized-likelihood intervals; P values are penalized likelihood-ratio tests. '
+              f"The overall six-category income test had five degrees of freedom (P = {income_sensitivity['Firth']['overall_PLR_p']:.3f}). "
+              'The adjusted model had eight predictor parameters (EPV = 3.75). CNY, Chinese yuan.']
     SUPPLEMENT.write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
 
@@ -241,11 +255,20 @@ def main():
         result['Crude'] = analyze(crude_x, y, list(range(1, crude_x.shape[1])), labels)
         models[name] = result
         counts[name] = {c: {'n': int((codes[column] == c).sum()), 'yes': int(y[codes[column] == c].sum())} for c in sorted(set(codes[column]))}
+    income_levels = ['A', 'B', 'C', 'D', 'E', 'F']
+    income_labels = EXPOSURES[1][4] + ['Preferred not to answer (missing income)']
+    assert set(codes[8]) == set(income_levels)
+    income_x = np.column_stack([base, *[codes[8] == c for c in income_levels[1:]]]).astype(float)
+    income_sensitivity = analyze(income_x, y, list(range(4, 9)),
+                                 [f'{label} vs <150,000 CNY' for label in income_labels[1:]], separated=True)
+    income_sensitivity.update(kind='categorical', levels=dict(zip(income_levels, income_labels)),
+                              excluded_n=0, category_counts=[counts['Annual household income'][c] for c in income_levels])
     output = {'data_sha256': hashlib.sha256(DATA.read_bytes()).hexdigest(),
               'software': {'python': sys.version.split()[0], 'numpy': np.__version__, 'scipy': scipy.__version__},
-              'n': len(y), 'events': int(y.sum()), 'models': models, 'counts': counts}
+              'n': len(y), 'events': int(y.sum()), 'models': models, 'counts': counts,
+              'income_missing_category_sensitivity': income_sensitivity}
     DETAILS.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8')
-    write_supplement(models)
+    write_supplement(models, income_sensitivity)
     print(f'Saved {DETAILS.name} and {SUPPLEMENT.name}')
 
 
