@@ -1,4 +1,6 @@
 import os
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
@@ -40,13 +42,13 @@ excl_list = [
 
 total_excl1 = 'Total excluded $n$ = 2,804'
 
-box2_title = 'Eligible patients selected for questionnaire'
+box2_title = 'Invited patients who submitted questionnaires'
 box2_n     = '$n$ = 72'
 
 qc_head = 'Excluded (questionnaire quality control):'
 qc_list = [
     'Completion time ≤ 120 s',
-    'Incomplete or incorrect information',
+    'Incorrect information',
     'Highly similar response content',
 ]
 
@@ -197,7 +199,7 @@ ax.set_ylim(0.12, 0.98)
 
 # ==================== SAVE ====================
 
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_1.jpg')
-fig.savefig(out, dpi=DPI, format='jpeg', facecolor=BG, edgecolor='none', pil_kwargs={'quality': 95})
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_1.png')
+fig.savefig(out, dpi=DPI, format='png', facecolor=BG, edgecolor='none')
 plt.close()
 print(f'Saved {out}')
