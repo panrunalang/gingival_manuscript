@@ -136,7 +136,7 @@ Discussion 中与使用经过验证量表的研究进行比较时，也应降低
 
 另外，一些分层只有 n=1 或 n=3。因此像“所有中度焦虑患者均报告轻度症状”这样的描述实际上只建立在3个病例之上，应明确谨慎表述。
 
-**（3）粗 OR 和调整 OR 之间存在需要核查的差异。**
+**（3）粗 OR 和调整 OR 之间存在需要核查的差异。** ✅
 
 根据 Table 2，教育程度的粗 OR 大约为：
 
@@ -154,7 +154,7 @@ Discussion 中与使用经过验证量表的研究进行比较时，也应降低
 
 并同时报告 crude OR 和 adjusted OR。
 
-**（4）模型建立依据。**
+**（4）模型建立依据。** ✅
 
 年龄和性别在单因素分析中 P 均为1.000，但因为“临床相关性”被纳入模型。应事先说明这一选择依据。
 
@@ -162,7 +162,7 @@ Discussion 中与使用经过验证量表的研究进行比较时，也应降低
 
 目前 Limitations 中“estimated events per variable were insufficient”的表述并不精确。
 
-**（5）数据收集后的分类合并。** 
+**（5）数据收集后的分类合并。**  ✅
 
 教育4级合并为2级、收入5级合并为2级、年龄4级合并为2级，以及首次就诊时间也被二分类。
 
@@ -196,7 +196,6 @@ Cronbach’s α 假设量表具有单维性，而且条目至少是有序水平�
 
 另外，还应说明 S-CVI=0.98 到底是 S-CVI/Ave 还是 S-CVI/UA，并报告 I-CVI。
 
-【We thank the reviewer for this comment. We agree that Cronbach's α is inappropriate for a questionnaire comprising nominal items across distinct domains. As the instrument is a survey rather than a unidimensional scale, we have removed the overall α (0.813) and now state that internal consistency is not applicable. We have also removed the S-CVI value, as we were unable to verify the calculation method (S-CVI/Ave vs. S-CVI/UA) or provide item-level I-CVI, and we now describe only the expert review process. The lack of formal psychometric evaluation has been added to the Limitations section.】
 
 ---
 
@@ -389,11 +388,9 @@ Table 1 只显示了两个类别。
 
 应与电子问卷本身的同意程序区分开来。通过 WeChat 完成问卷时，很可能采用的是电子知情同意，应明确描述。
 
-【感谢专家的仔细审阅与宝贵意见，很抱歉原文表述不清造成误解。文中“2022年7月”指患者临床接收膜龈手术时间，并非本研究科研数据提取时间，本研究科研相关的数据提取、受试者招募工作均在2023年伦理批件LCYJ2023055获批之后开展。此外，我们根据您的建议修改xxx行区分两类知情：所有患者就诊时签署常规诊疗书面知情同意；本研究微信电子问卷，在填写前获取线上电子知情同意，稿件已修改，再次感谢您的建议。】
-
 ---
 
-**24. Data availability statement 不一致。**  ⚠️修改投稿系统选项
+**24. Data availability statement 不一致。**  ⚠️修改投稿系统选项（我记得当时是填了不直接公开的，但是不知道为什么审稿人这样说，也有可能是我当时点错了，对于这条意见，打算回绝）
 
 Frontiers 投稿系统中写的是原始贡献均包含在文章/补充材料中；
 
