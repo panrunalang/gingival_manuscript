@@ -1,3 +1,11 @@
+---
+title: "Supplementary Material S4 Additional Table"
+output:
+  word_document:
+    path: ./Supplementary Material S4 Additional Table.docx
+    pandoc_args: ["--reference-doc=template.docx", "--variable", "Plain Table 5"]
+---
+
 **Supplementary Material S4**
 
 Table S1. Crude and age- and sex-adjusted associations with professional information seeking
