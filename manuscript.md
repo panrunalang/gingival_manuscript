@@ -12,22 +12,22 @@ Wei Luo^1,\ #^, Runlang Pan^1,\ #^, Shuting Liu^1^, Manying Zhou^1^, Ting Zhang^
 
 ^#^ These authors contributed equally to this work and share first authorship.
 
-^\*^ Correspondence:  
+^\*^ **Correspondence**:  
 Wenguang Qin: 2015686011@gzhmu.edu.cn  
 Yingsi Huang: 467965641@qq.com  
 
-Manuscript word count: 4,391 words (excluding abstract, references, tables, and figure captions)  
-Abstract word count: 283 words  
-Figure count: 3  
-Table count: 3  
+**Manuscript word count**: 4,391 words (excluding abstract, references, tables, and figure captions)  
+**Abstract word count**: 283 words  
+**Figure count**: 3  
+**Table count**: 3  
 
-## Abstract
+**Abstract**
 
 Objectives: To characterize patients' preoperative information-seeking behaviors and procedure-specific understanding regarding periodontal mucogingival surgery for gingival recession, and identify factors associated with obtaining information from professional healthcare sources, thereby informing preoperative health education by medical students and junior clinicians. Methods: In this single-centre, cross-sectional questionnaire survey conducted at the 6-month postoperative follow-up at a tertiary dental hospital in China, preoperative anxiety and information-seeking behaviors were assessed retrospectively. Hospital records of 2,876 patients who underwent periodontal surgery between July 2022 and December 2025 were screened. Of the 72 patients who underwent mucogingival surgery for Cairo RT1 recession, 66 returned valid questionnaires and were included in the analysis. Each factor was assessed separately in crude and age- and sex-adjusted exploratory models, with Firth sensitivity analyses. Results: Overall, 93.94% of patients reported learning about the surgery before treatment, and 45.45% selected professional medical staff as their information source. Procedure-specific understanding was favorable (96.97% understood the surgical procedure; 98.48% knew initial periodontal therapy was required). Mild preoperative anxiety was reported by 65.15% of patients. Education showed a positive trend after age and sex adjustment (OR = 2.50, 95% CI: 1.11–5.63, P =  0.026); the Firth sensitivity estimate was 2.24 (95% CI: 1.11–5.20, P =  0.022). Patients reported that psychological burden, systemic health status, and surgical cost influenced their decisions. Preoperative anxiety was positively associated with postoperative reactions and the influence of psychological burden on decision-making, and postoperative reactions were associated with the reported influence on future surgery decisions. Conclusions: Education level showed an exploratory association with professional information seeking among patients who had undergone mucogingival surgery. Associations among recalled anxiety, postoperative reactions, and reported decision-making influences were hypothesis generating. Their relevance to preoperative communication requires prospective evaluation.
 
 Keywords: Gingival Recession; Health Knowledge, Attitudes, Practice; Surveys and Questionnaires; Health Education, Dental; Health-Seeking Behavior
 
-## Introduction
+**Introduction**
 
 Gingival recession (GR) refers to the apical displacement of the gingival margin from the cementoenamel junction, exposing the root surface. It is one of the most common mucogingival conditions in clinical dentistry. GR may lead to dentin hypersensitivity, root caries, non-carious cervical lesions, difficulty in plaque control, and aesthetic concerns in the anterior region, thereby affecting oral health and quality of life (1–3). A recent systematic review and meta-analysis including 22 observational studies reported that the global prevalence of GR was 81.1% (95% CI: 73.9–86.7) using a threshold of ≥1 mm, and 48.4% and 16.2% using thresholds of ≥3 mm and ≥5 mm, respectively (4). With improved living standards and rising aesthetic demands, more patients are seeking dental care for GR. Managing aesthetic and functional problems related to GR has therefore become a common clinical need in periodontology.
 
@@ -35,9 +35,9 @@ Mucogingival surgery is a major treatment approach for GR, and root coverage pro
 
 Therefore, this study conducted a postoperative questionnaire survey among patients with GR who underwent periodontal mucogingival surgery. The study aimed to characterize preoperative information-seeking behaviors and procedure-specific understanding regarding periodontal mucogingival surgery, analyze factors associated with obtaining information from professional healthcare sources, and examine the relationships among preoperative anxiety, postoperative reactions, psychological burden, and the reported influence on future surgery decisions. The findings may identify topics for preoperative communication and health education delivered by medical students and junior clinicians; effects on surgical acceptance and treatment outcomes were not evaluated.
 
-## Methods
+**Methods**
 
-## Study design and data collection
+**Study design and data collection**
 
 This study was approved by the Ethics Committee of the Hospital of Stomatology, Guangzhou Medical University (approval number: LCYJ2023055). The approved protocol covered questionnaire surveys of patients who had undergone surgery from July 2022 onward. A total of 2,876 patients who underwent periodontal surgery at the Hospital of Stomatology, Guangzhou Medical University between July 2022 and December 2025 were screened. Among them, 72 patients underwent periodontal mucogingival surgery for Cairo RT1 GR. This was a cross-sectional questionnaire survey conducted at the scheduled 6-month postoperative follow-up, using the hospital's electronic medical record system and postoperative follow-up registry to identify eligible patients. Recruitment covered all eligible patients identified within this surgical time window, and the final analytic sample was determined after questionnaire quality screening. No a priori sample-size estimation or statistical power calculation was performed. Preoperative anxiety and information-seeking behaviors were assessed retrospectively. This study was reported in accordance with the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) reporting guideline for cross-sectional studies (9) and the Checklist for Reporting Results of Internet E-Surveys (CHERRIES) (10). The completed checklists are provided in Supplementary Material S1 and S2.
 
@@ -55,7 +55,7 @@ All 72 invited patients visited the consent page, agreed to participate, and sub
 
 Clinical characteristics were also collected to describe the sample, including treated teeth, recession depth, keratinized tissue width, surgical technique, palatal graft harvesting, graft dimensions, postoperative medication, and root coverage at 6 months. For multiple adjacent treated teeth, the minimum recession depth, keratinized tissue width, and root coverage were recorded for each patient.
 
-## Questionnaire
+**Questionnaire**
 
 The questionnaire was developed with reference to the WHO oral health report, the Fourth National Oral Health Survey of China, and relevant domestic and international literature (12–15). After the initial questionnaire was drafted, six experts from dentistry and nursing reviewed the items for relevance, clarity, and appropriateness, and the questionnaire was revised accordingly. A pilot survey was then conducted among 10 conveniently selected patients to assess whether each item was easy to understand and to reduce ambiguity. The usability and technical functionality of the electronic questionnaire were tested before formal administration. The questionnaire was a survey instrument that collected item-level information across distinct domains, rather than a psychometric scale measuring a single construct. Therefore, no total score was calculated, internal consistency (Cronbach's alpha) was not applicable, and each item was analyzed individually.
 
@@ -63,7 +63,7 @@ The questionnaire included three sections: (1) basic patient information, includ
 
 Patients selected the preset response that best described their recalled preoperative anxiety and postoperative reactions; investigators did not assign grades. Anxiety categories were no anxiety; mild anxiety (nervousness, uneasiness, unexplained worry, or panic); moderate anxiety (persistent nervousness and uneasiness, worry, palpitations, or heart pounding); and severe anxiety (persistent nervousness and uneasiness with worry and physical symptoms such as headache, dizziness, abdominal pain, or diarrhea). Postoperative reaction categories were no special discomfort; mild symptoms (slight bleeding, pain, or swelling); and obvious discomfort (obvious pain or swelling requiring oral analgesics for relief). These were questionnaire response descriptions, not validated diagnostic or clinical severity criteria.
 
-## Statistical analysis
+**Statistical analysis**
 
 SPSS 25.0 was used for statistical analysis. Categorical data were expressed as frequencies and percentages, n (%). Continuous clinical variables were summarized as medians and ranges. The dependent variable was professional information seeking, defined as selecting the attending doctor or nurse in the preoperative information-source item versus any other response. 
 
@@ -73,15 +73,15 @@ Crude logistic regressions were fitted for all nine demographic, socioeconomic, 
 
 To further explore associations between perioperative experiences and surgical decision-making, three relationships were assessed: preoperative anxiety with postoperative reactions, preoperative anxiety with the influence of psychological burden on decision-making, and postoperative reactions with the reported influence on future surgery decisions. Linear-by-linear association tests assessed trend, and Goodman–Kruskal gamma with 95% CIs described direction and strength. Categories were ordered from none to greater anxiety, postoperative symptoms, or influence on future surgery; psychological burden was coded as no or yes. Gamma 95% CIs were obtained from 10,000 patient-level bootstrap samples. All regression and ordinal association analyses were exploratory and hypothesis generating. P values were unadjusted for multiple comparisons and were interpreted descriptively. Surgical technique and the presence of a palatal donor site were not included as covariates because both were identical across all patients. No subgroup or interaction analyses, sampling weights, or propensity-score corrections were used; no complex sampling design was used.
 
-## Results
+**Results**
 
-## Preoperative information seeking, procedure-specific understanding, and decision-making factors
+**Preoperative information seeking, procedure-specific understanding, and decision-making factors**
 
 The 66 patients had 98 treated teeth. All underwent the envelope technique with a palatal connective tissue graft (CTG) harvested using the single-incision technique. Median recession depth was 3 mm (range, 2–5 mm), median keratinized tissue width was 2 mm (range, 1–3 mm), and median root coverage at 6 months was 83.3% (range, 66.7–100%). Clinical characteristics are summarized in Table 1.
 
 Overall, 93.94% of patients reported learning about the surgery before treatment, and 45.45% selected professional medical staff (attending doctor or nurse) as their information source. Procedure-specific understanding was generally favorable: 96.97% of patients partly or fully understood the mucogingival surgical procedure, 98.48% knew that initial periodontal therapy was required before surgery, and 80.30% recalled signing an informed consent form. Mild preoperative anxiety was reported by 65.15% of patients. Regarding factors influencing surgical decision-making, 83.33% of patients reported that their understanding of surgery influenced their decision, 71.21% considered systemic health status, 57.58% were affected by psychological burden, and 46.97% considered surgical cost. Additional results are shown in Table 2.
 
-## Crude and adjusted associations with professional information seeking
+**Crude and adjusted associations with professional information seeking**
 
 Women accounted for 65.15% of the sample, patients aged 18–44 years for 59.09%, patients with bachelor's or postgraduate education for 75.76%, patients with regular dental checkups for 75.76%, and patients reporting their first periodontal surgery for 68.18%. Original-category distributions are shown in Table 3. The crude education trend estimate was OR = 1.57 (95% CI: 0.85–2.89, P =  0.151). Other factors with finite ordinary regression estimates had crude overall P values >0.05; marital status and insurance had sparse categories causing separation.
 
@@ -91,11 +91,11 @@ After age and sex adjustment, the education trend estimate was OR = 2.50 (95% CI
 
 Figure 2. Crude and adjusted associations with professional information seeking. Open and filled circles indicate crude and adjusted ORs, respectively; horizontal lines indicate 95% CIs, and the dashed line indicates OR = 1. Each adjusted model includes one target factor, original age categories, and sex; target factors are not mutually adjusted. ORs for education, income, and time since first dental treatment represent a one-category increase; the other two comparisons are yes versus no. Income models include 52 patients; the other models include 66. Complete results for marital status, insurance, and Firth sensitivity analyses are provided in Supplementary Material S4.
 
-## Associations among perioperative experiences and reported decision-making influences
+**Associations among perioperative experiences and reported decision-making influences**
 
 Preoperative anxiety level was positively associated with postoperative reactions (gamma = 0.611, 95% CI: 0.213–0.865, P = 0.009). In the no-anxiety group, 60.0% of patients reported no specific postoperative discomfort. In the mild-anxiety group, 67.4% reported mild symptoms. All patients in the moderate-anxiety group reported mild symptoms. Preoperative anxiety was also positively associated with the influence of psychological burden on decision-making (gamma = 0.783, 95% CI: 0.477–0.956, P < 0.001). Only 25.0% of patients in the no-anxiety group reported that psychological burden affected their surgical choice. In contrast, this proportion increased to 69.8% in the mild-anxiety group and 100.0% in the moderate-anxiety group. Postoperative reactions were positively associated with the reported influence on future surgery decisions (gamma = 0.740, 95% CI: 0.436–0.945, P < 0.001). In the group without postoperative discomfort, 76.0% reported that the experience would not affect future surgical decisions. In the mild-symptom group, 70.0% reported a mild influence. The patient with obvious discomfort (n = 1) reported a mild influence. Details are shown in Figure 3.
 
-## Discussion
+**Discussion**
 
 This questionnaire survey included 66 patients with GR who underwent mucogingival surgery and systematically characterized their preoperative information-seeking patterns, procedure-specific understanding, and perioperative experiences. Education level showed a positive trend with professional information seeking after age and sex adjustment, and associations among preoperative anxiety, postoperative reactions, psychological burden, and the reported influence on future surgery decisions were observed. These findings complement previous evidence on patients' recognition of GR (6) by focusing specifically on patients who had actually undergone mucogingival surgery and jointly assessing preoperative information acquisition and perioperative experiences.
 
@@ -117,35 +117,35 @@ The single-centre sample included only treated Cairo RT1 patients who could inde
 
 Finally, the cross-sectional questionnaire survey design could not determine causal relationships between information-seeking behaviors and perioperative experiences. Future multicenter prospective studies with larger samples should employ validated psychometric scales to more accurately quantify psychological status and explore the effects of structured preoperative educational interventions on surgical acceptance and patient-reported outcomes.
 
-## Conclusions
+**Conclusions**
 
 Among patients with GR who had undergone mucogingival surgery, 93.94% reported learning about mucogingival surgery before treatment, and 45.45% selected professional healthcare staff as their information source. Higher education showed a positive trend with professional information seeking after age and sex adjustment, suggesting that education level may help guide future research on individualized oral health education. In addition, preoperative anxiety showed exploratory associations with postoperative reactions and psychological burden, while postoperative reactions were associated with the reported influence on future surgery decisions. These findings describe associations within a treated population and do not identify determinants of accepting or refusing surgery. Their relevance to individualized preoperative communication and education requires prospective evaluation.
 
-## Author Contributions
+**Author Contributions**
 
 Wei Luo: Conceptualization, Methodology, Investigation, Data curation, Writing – original draft. Runlang Pan: Formal analysis, Visualization, Writing – original draft. Shuting Liu: Investigation, Data curation. Manying Zhou: Investigation, Data curation. Ting Zhang: Investigation, Data curation. Yingsi Huang: Funding acquisition, Writing – review & editing. Wenguang Qin: Conceptualization, Methodology, Supervision, Formal analysis, Writing – review & editing.
 
-## Funding
+**Funding**
 
 This work was supported by the Guangdong Basic and Applied Basic Research Foundation (2023A1515030037), the Guangzhou Medical University, School of Stomatology, Educational Science Planning and Teaching Reform Project: “Three-Dimensional Integration · Five-Education Synergy: Constructing and Practicing a Periodontology Practical Teaching Model Bidirectionally Empowered by Ideological–Political Education and Digital Intelligence” and the University Scientific Research Project of the Guangzhou Education Bureau (2024312042). The funders had no role in study design, data collection, analysis, manuscript preparation, or the decision to submit for publication.
 
-## Acknowledgments
+**Acknowledgments**
 
 The authors thank all patients who participated in this study, the nursing staff at the Department of Periodontology, Liwan Branch, Hospital of Stomatology, Guangzhou Medical University, for their assistance with questionnaire distribution, and the medical experts who contributed to the content validation of the questionnaire.
 
-## Conflict of Interest Statement
+**Conflict of Interest Statement**
 
 The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
 
-## Ethics Statement
+**Ethics Statement**
 
 The study was reviewed and approved by the Ethics Committee of the Hospital of Stomatology, Guangzhou Medical University (approval number: LCYJ2023055). The approved protocol covered retrospective screening of patients who had undergone surgery from July 2022 onward. Participants provided electronic informed consent before completing the WeChat questionnaire.
 
-## Data Availability Statement
+**Data Availability Statement**
 
 The raw data supporting the conclusions of this article will be made available by the authors upon reasonable request, without undue reservation.
 
-## REFERENCES
+**REFERENCES**
 
 1. Reis MBL, Mandetta CMR, Dantas CDF, Marañón-Vásquez G, Taba M Jr, de Souza SLS, et al. Root coverage of gingival recessions with non-carious cervical lesions: A controlled clinical trial. Clin Oral Investig (2020) 24:4583–9. doi: 10.1007/s00784-020-03325-1.
 
@@ -219,13 +219,13 @@ The raw data supporting the conclusions of this article will be made available b
 
 36. Nam HS, Yoo HJ, Ho JPY, Kim YB, Lee YS. Preoperative education on realistic expectations improves the satisfaction of patients with central sensitization after total knee arthroplasty: A randomized-controlled trial. Knee Surg Sports Traumatol Arthrosc (2023) 31:4705–15. doi: 10.1007/s00167-023-07487-9.
 
-## Figure captions
+**Figure captions**
 
 Figure 1. Flowchart of sample selection. Among 2,876 patients who received periodontal surgery, 72 eligible patients were identified according to the inclusion and exclusion criteria and invited to complete the questionnaire. All 72 invited patients submitted questionnaires (response rate, 100%). Six questionnaires were excluded after quality screening, and 66 were included in the final analysis (valid questionnaire rate, 91.7% of submitted questionnaires).
 
 Figure 3. Ordinal associations among perioperative experiences and future surgery decisions. A: Preoperative anxiety and postoperative reactions. B: Preoperative anxiety and the influence of psychological burden on surgical choice. C: Postoperative reactions and the influence on future surgery decisions. Stacked bars show percentages; numbers inside and above bars indicate counts and group totals, respectively. Unadjusted P values are from linear-by-linear association tests; gamma quantifies the direction and strength of each association.
 
-## Tables
+**Tables**
 
 Table 1. Clinical characteristics of patients undergoing mucogingival surgery
 
