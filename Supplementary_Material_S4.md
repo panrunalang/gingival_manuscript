@@ -1,8 +1,8 @@
-# Supplementary Material S4
+**Supplementary Material S4**
 
 Table S1. Crude and age- and sex-adjusted associations with professional information seeking
 
-| Factor and comparison | Crude OR (95% CI) | P | Adjusted OR (95% CI) | P |
+| Factor and comparison | Crude OR (95% CI) | *P* | Adjusted OR (95% CI) | *P* |
 | --- | --- | ---: | --- | ---: |
 | Education: Per original category increase | 1.57 (0.85–2.89) | 0.151 | 2.50 (1.11–5.63) | 0.026 |
 | Annual household income: Per original category increase | 0.91 (0.54–1.53) | 0.720 | 1.03 (0.56–1.90) | 0.925 |
@@ -20,11 +20,11 @@ Table S1. Crude and age- and sex-adjusted associations with professional informa
 | Age: >60 vs 18–44 years | 3.88 (0.69–21.70) | 0.122 | 3.72 (0.66–21.09) | 0.138 |
 | Sex: Female vs male | 1.96 (0.69–5.59) | 0.206 | 1.88 (0.64–5.49) | 0.247 |
 
-Note: Professional information seeking means selecting the attending doctor or nurse in the single-choice information-source item; 30 of 66 patients selected this response. Each adjusted model contains one target factor, age (18–44, 45–59, >60 years), and sex. Age and sex are mutually adjusted in their own rows. Education, income, and time since first dental treatment are scored in ascending original-category order; their ORs are per one-category increase. Education scores are 0 (below junior college), 1 (junior college), 2 (bachelor’s degree), and 3 (postgraduate). Income has five scores (0–4), and dental treatment history has four (0–3); these scores do not represent equal amounts of money or years. Marital status and insurance retain their original nominal categories. CI and P values use Wald inference. NE, no finite maximum-likelihood estimate because of separation; OR, odds ratio; CI, confidence interval. All P values are uncorrected for multiple comparisons.
+Note: Professional information seeking means selecting the attending doctor or nurse in the single-choice information-source item; 30 of 66 patients selected this response. Each adjusted model contains one target factor, age (18–44, 45–59, >60 years), and sex. Age and sex are mutually adjusted in their own rows. Education, income, and time since first dental treatment are scored in ascending original-category order; their ORs are per one-category increase. Education scores are 0 (below junior college), 1 (junior college), 2 (bachelor’s degree), and 3 (postgraduate). Income has five scores (0–4), and dental treatment history has four (0–3); these scores do not represent equal amounts of money or years. Marital status and insurance retain their original nominal categories. CI and *P* values use Wald inference. NE, no finite maximum-likelihood estimate because of separation; OR, odds ratio; CI, confidence interval. All *P* values are uncorrected for multiple comparisons.
 
 Table S2. Firth sensitivity analysis of the same adjusted models
 
-| Factor and comparison | Adjusted OR (95% CI) | P | Overall factor P |
+| Factor and comparison | Adjusted OR (95% CI) | *P* | Overall factor *P* |
 | --- | --- | ---: | ---: |
 | Education: Per original category increase | 2.24 (1.11–5.20) | 0.022 | 0.022 |
 | Annual household income: Per original category increase | 1.03 (0.57–1.85) | 0.931 | 0.931 |
@@ -42,11 +42,11 @@ Table S2. Firth sensitivity analysis of the same adjusted models
 | Age: >60 vs 18–44 years | 3.16 (0.70–18.96) | 0.138 |  |
 | Sex: Female vs male | 1.80 (0.65–5.21) | 0.260 | 0.260 |
 
-Note: Firth penalized logistic regression was applied to every adjusted model. CIs are profile penalized-likelihood intervals; single-coefficient and overall-factor P values are penalized likelihood-ratio tests. Coding, reference categories, exclusions, and adjustment match Table S1. Overall tests have one degree of freedom for trend or binary terms, two for age, three for marital status, and four for insurance. Commercial insurance has only two respondents; its single-category comparison has a very wide CI despite P <0.05, while the overall insurance test has P >0.05. All comparisons are exploratory.
+Note: Firth penalized logistic regression was applied to every adjusted model. CIs are profile penalized-likelihood intervals; single-coefficient and overall-factor *P* values are penalized likelihood-ratio tests. Coding, reference categories, exclusions, and adjustment match Table S1. Overall tests have one degree of freedom for trend or binary terms, two for age, three for marital status, and four for insurance. Commercial insurance has only two respondents; its single-category comparison has a very wide CI despite *P* <0.05, while the overall insurance test has *P* >0.05. All comparisons are exploratory.
 
 Table S3. Model sample sizes and overall tests
 
-| Target factor | N | Events | Predictor parameters | EPV | Crude LR P | Adjusted LR P |
+| Target factor | *N* | Events | Predictor parameters | EPV | Crude LR *P* | Adjusted LR *P* |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Education | 66 | 30 | 4 | 7.50 | 0.139 | 0.014 |
 | Annual household income | 52 | 25 | 4 | 6.25 | 0.720 | 0.925 |
@@ -62,7 +62,7 @@ Note: EPV is the number of outcome events divided by the number of predictor par
 
 Table S4. Income sensitivity analysis retaining missing responses as a separate category
 
-| Income category vs <150,000 CNY | N | Professional source, n | Adjusted OR (95% CI) | P |
+| Income category vs <150,000 CNY | *N* | Professional source, *n* | Adjusted OR (95% CI) | *P* |
 | --- | ---: | ---: | --- | ---: |
 | <150,000 | 17 | 8 | Reference | — |
 | 150,000–300,000 | 19 | 10 | 1.22 (0.33–4.71) | 0.764 |
@@ -71,4 +71,4 @@ Table S4. Income sensitivity analysis retaining missing responses as a separate 
 | >1,000,000 | 1 | 0 | 0.90 (0.01–26.58) | 0.955 |
 | Preferred not to answer (missing income) | 14 | 5 | 0.38 (0.06–1.86) | 0.239 |
 
-Note: All 66 patients (30 professional-source responses) were retained. The five original income brackets and preferred not to answer were entered as six nominal categories, with <150,000 CNY as reference; missing responses were not assigned an income score or imputed. Firth logistic regression adjusted for age (18–44, 45–59, >60 years) and sex because the >1,000,000 CNY category contained one patient and no professional-source responses. CIs are profile penalized-likelihood intervals; P values are penalized likelihood-ratio tests. The overall six-category income test had five degrees of freedom (P = 0.643). The adjusted model had eight predictor parameters (EPV = 3.75). CNY, Chinese yuan.
+Note: All 66 patients (30 professional-source responses) were retained. The five original income brackets and preferred not to answer were entered as six nominal categories, with <150,000 CNY as reference; missing responses were not assigned an income score or imputed. Firth logistic regression adjusted for age (18–44, 45–59, >60 years) and sex because the >1,000,000 CNY category contained one patient and no professional-source responses. CIs are profile penalized-likelihood intervals; *P* values are penalized likelihood-ratio tests. The overall six-category income test had five degrees of freedom (*P* = 0.643). The adjusted model had eight predictor parameters (EPV = 3.75). CNY, Chinese yuan.
