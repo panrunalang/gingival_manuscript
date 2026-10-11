@@ -1,3 +1,4 @@
 
 # LaTeX 编译输出目录
 .latex/
+.DS_Store
