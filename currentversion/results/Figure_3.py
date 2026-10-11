@@ -1,9 +1,12 @@
 import os
 import csv
 from collections import Counter
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import chi2
+from ordinal_associations import gamma, bootstrap_ci, RANDOM_SEED
 
 # ==================== PARAMETERS ====================
 
@@ -21,6 +24,7 @@ DPI         = 300
 TARGET_W_PX = 2126
 
 LABELS = ['A', 'B', 'C']
+STAT_FONT_SIZE = 8.5
 
 # ==================== DATA LOADING ====================
 
@@ -90,6 +94,12 @@ def linear_by_linear_p(x, y):
 p_a = linear_by_linear_p(np.array(anx_score), np.array(post_score))
 p_b = linear_by_linear_p(np.array(anx_score), np.array(psych_score))
 p_c = linear_by_linear_p(np.array(post_score), np.array(fs_score))
+
+rng = np.random.default_rng(RANDOM_SEED)
+association_stats = []
+for x_scores, y_scores in [(anx_score, post_score), (anx_score, psych_score), (post_score, fs_score)]:
+    x_scores, y_scores = np.array(x_scores), np.array(y_scores)
+    association_stats.append((gamma(x_scores, y_scores), bootstrap_ci(x_scores, y_scores, rng)))
 
 # ==================== CROSS-TAB DATA ====================
 
@@ -193,18 +203,20 @@ for i, pn in enumerate(panels):
         ax.text(xi, 107, f'$n$={row_total}', ha='center', va='center',
                 fontsize=7.5, color=TEXT_CLR)
 
-    # --- p-value above n=XX labels, centered in panel ---
+    # --- Association estimates above the group totals ---
     p_val = pn['p']
     if p_val < 0.001:
         p_text = r'$P$ < 0.001'
     else:
         p_text = f'$P$ = {p_val:.3f}'
-    ax.text((n_rows - 1) / 2, 114, p_text, ha='center', va='center',
-            fontsize=8, color=TEXT_CLR)
+    gamma_value, ci = association_stats[i]
+    stats_text = f'γ = {gamma_value:.3f}\n95% CI: {ci[0]:.3f}–{ci[1]:.3f}\n{p_text}'
+    ax.text((n_rows - 1) / 2, 131, stats_text, ha='center', va='center',
+            fontsize=STAT_FONT_SIZE, linespacing=1.3, color=TEXT_CLR)
 
     # --- Axes formatting ---
     ax.set_xlim(-0.65, n_rows - 0.35)
-    ax.set_ylim(0, 120)
+    ax.set_ylim(0, 150)
     ax.set_xticks(x)
     ax.set_xticklabels(pn['row_labels'], fontsize=8, color=TEXT_CLR)
     ax.set_yticks([0, 25, 50, 75, 100])
@@ -245,8 +257,8 @@ for i, pn in enumerate(panels):
 
 # ==================== SAVE ====================
 
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_3.png')
-fig.savefig(out, dpi=DPI, format='png', facecolor=BG, edgecolor='none')
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_3.jpg')
+fig.savefig(out, dpi=DPI, format='jpeg', facecolor=BG, edgecolor='none', pil_kwargs={'quality': 95, 'subsampling': 0})
 plt.close()
 
 print(f'Saved {out}')

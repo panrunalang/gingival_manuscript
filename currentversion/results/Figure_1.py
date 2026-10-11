@@ -199,7 +199,7 @@ ax.set_ylim(0.12, 0.98)
 
 # ==================== SAVE ====================
 
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_1.png')
-fig.savefig(out, dpi=DPI, format='png', facecolor=BG, edgecolor='none')
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'figures', 'Figure_1.jpg')
+fig.savefig(out, dpi=DPI, format='jpeg', facecolor=BG, edgecolor='none', pil_kwargs={'quality': 95, 'subsampling': 0})
 plt.close()
 print(f'Saved {out}')

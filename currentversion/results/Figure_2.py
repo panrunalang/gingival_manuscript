@@ -26,7 +26,7 @@ FACTORS = [
     ('First periodontal surgery (Q7)', 'First periodontal surgery\n(yes vs no)'),
 ]
 RESULTS = Path(__file__).with_name('regression_results.json')
-OUTPUT = RESULTS.parent.parent / 'figures' / 'Figure_2.png'
+OUTPUT = RESULTS.parent.parent / 'figures' / 'Figure_2.jpg'
 
 # ==================== DATA ====================
 models = json.loads(RESULTS.read_text())['models']
@@ -87,6 +87,7 @@ fig.legend(handles=[
 
 # ==================== SAVE ====================
 OUTPUT.parent.mkdir(exist_ok=True)
-fig.savefig(OUTPUT, dpi=DPI, facecolor=BACKGROUND)
+fig.savefig(OUTPUT, dpi=DPI, format='jpeg', facecolor=BACKGROUND,
+            pil_kwargs={'quality': 95, 'subsampling': 0})
 plt.close(fig)
 print(f'Saved {OUTPUT}')
