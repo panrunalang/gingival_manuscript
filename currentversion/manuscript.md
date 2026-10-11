@@ -250,7 +250,7 @@ Table 1. Clinical characteristics of patients undergoing mucogingival surgery
 | Postoperative medication regimen B, *n* (%) | 3 (4.55) |
 | Root coverage at 6 months, %, median (range) | 83.3 (66.7–100) |
 
-Note:*n*= 66; percentages use patients as the denominator. Each patient underwent surgery in one arch. For multiple adjacent treated teeth, recession depth, keratinized tissue width, and root coverage represent the minimum value among the treated teeth. Graft dimensions describe the harvested tissue, not the palatal wound area. Regimen A: amoxicillin 0.5 g orally three times daily for 5 days; regimen B: clindamycin 0.3 g orally three times daily for 5 days. Both regimens included ibuprofen 0.3 g orally as needed and 0.12% chlorhexidine mouth rinse for 1 minute twice daily for 2 weeks. CTG, connective tissue graft.
+Note: *n* = 66; percentages use patients as the denominator. Each patient underwent surgery in one arch. For multiple adjacent treated teeth, recession depth, keratinized tissue width, and root coverage represent the minimum value among the treated teeth. Graft dimensions describe the harvested tissue, not the palatal wound area. Regimen A: amoxicillin 0.5 g orally three times daily for 5 days; regimen B: clindamycin 0.3 g orally three times daily for 5 days. Clindamycin was prescribed to three patients because of a reported history of penicillin allergy. Both regimens included ibuprofen 0.3 g orally as needed and 0.12% chlorhexidine mouth rinse for 1 minute twice daily for 2 weeks. CTG, connective tissue graft.
 
 Table 2. Preoperative information seeking, procedure-specific understanding, perioperative experiences, and decision-making factors
 
