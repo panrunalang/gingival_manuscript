@@ -1,251 +1,115 @@
-以下为审稿意见的**完整中文翻译**，严格按照原文结构、顺序和语义进行 1:1 翻译，保留所有数据、统计指标、审稿意见编号及专业术语，不作删减或额外解读。采用 Markdown 格式，可直接复制到 Obsidian 或 VS Code。
+# Point-by-point response to Reviewer 1: Second revision
 
----
+Dear Editor and Reviewers,
 
-感谢你们在本次修订中付出的努力，以及那封异常细致、认真的审稿回复信。在讨论剩余的几个问题之前，我想先肯定一点：你们在处理若干问题时，展现出了将学术诚信置于便利之上的态度。由于原始记录无法确认 Cronbach's α 系数和 S-CVI 值的计算依据，你们选择将其删除；当我对优势比（OR）提出疑问时，你们重新核对原始数据，并公开报告了修正结果；此外，你们还主动删除了存在共同作者的引用——这些都是正确的决定，而且并非容易作出的决定。这些做法不仅提升了稿件的质量，也增强了我对其余数据的信心。
+Thank you for the careful second-round review of the manuscript entitled “Preoperative Information-Seeking Behavior and Perioperative Experiences in Patients Undergoing Periodontal Mucogingival Surgery: A Single-Centre Cross-Sectional Survey,” and for acknowledging the steps taken to improve reporting transparency. The remaining comments have been addressed below.
 
-在我看来，这篇论文现在已经接近可以接受的状态。以下需要说明的内容并不多。
+All manuscript page and line references refer exclusively to the supplied highlighted manuscript PDF (highlighted version.pdf), using its printed page numbers and continuous line numbering. Figure-panel changes are identified by panel, and supplementary table entries by table and row. 
 
-## 一、需要解决的问题（Points to address）
+## Points to address
 
-### 1. 将数据核查声明纳入正文
+### Comment 1
 
-你们在回复中解释，通过与原始记录进行核对，修正了若干计数：
+> Put the data-verification statement into the manuscript. Your response explains that verification against the source records corrected several counts: professional information source 29 → 30 (43.94% → 45.45%), online platforms 22 → 21, first periodontal surgery 46 → 45, missing income 15 → 14, and the demographic cells that follow from these. I accept that explanation fully, and the revised figures reconcile across all nine variables in Table 3. But this currently lives only in a response letter that readers and future editors will not see. Please add two or three sentences to the Methods — under data collection or quality control — stating that the dataset was re-verified against source records during revision, which variables were affected, and that the published figures reflect the corrected data. Framed that way it reads as a strength of your process, which is what it is.
 
-- 专业信息来源：29 → 30（43.94% → 45.45%）
-- 在线平台：22 → 21
-- 首次接受牙周手术：46 → 45
-- 收入信息缺失：15 → 14
-- 以及由这些变化引起的人口统计学相关单元格数据的调整。
+Response: Thank you for recommending that this verification be documented in the manuscript. Three sentences have been added to Methods stating that the dataset was rechecked against the original records during revision; that the counts for preoperative information sources, first periodontal surgery, and missing income, together with the corresponding demographic distributions, were corrected; and that all results in the revised manuscript and tables reflect the verified data.
 
-我完全接受这一解释，而且修订后的数据在表3的全部9个变量中均保持一致。
+Revision locations: Methods, “Study design and data collection,” p. 7: verification against original records, lines 142–143; affected variables and demographic distributions, lines 143–146; confirmation that the reported results use the verified data, line 146.
 
-但是，目前这些说明仅存在于审稿回复信中，而读者和未来的编辑都无法看到这封回复信。
+### Comment 2
 
-请在 **Methods（方法）** 部分的“数据收集”或“质量控制”小节中增加两到三句话，说明：
+> Interpret the crude-to-adjusted change in the education estimate. Your response correctly notes that the revised trend OR is a different estimand from the earlier binary OR, so the old 4.69-versus-3.21 comparison no longer applies. Agreed. But the question survives in a new form within the revised analysis itself: the crude trend is 1.57 (95% CI 0.85–2.89, *P* = 0.151) and the age- and sex-adjusted trend is 2.50 (95% CI 1.11–5.63, *P* = 0.026). An association that strengthens by roughly 60% and crosses into significance on adjustment for two variables alone still asks for an explanation, and at present the Discussion reports the two numbers side by side without one.
 
-- 在修订过程中，研究者重新依据原始记录对数据集进行了核查；
-- 哪些变量受到了影响；
-- 正式发表的数据均采用修正后的结果。
+> Your own Table 3 suggests the mechanism. Patients over 60 selected professional sources at the highest rate of any age group (6/8, 75.0%), and that group is plausibly also the least educated. Age would then act as a negative confounder, masking the education trend in the crude model and unmasking it on adjustment. If that is what is happening, say so in a sentence or two — it is an interpretable and legitimate pattern, and explaining it will do more for reader confidence than leaving it unremarked. If you cannot identify the mechanism from your data, saying that is also an acceptable answer.
 
-以这种方式表述，能够体现你们研究流程的严谨性，而事实也确实如此。
+> Relatedly, the abstract currently gives only the adjusted and Firth estimates. Please add the crude estimate alongside them. A reader who sees only the abstract should see the same picture your Conclusions correctly paint: an exploratory signal, not a settled finding.
 
-【
-感谢审稿人的肯定与进一步建议。我们同意，仅在审稿回复信中解释数据修正过程不足以保证研究报告的透明性。因此，我们已按照您的建议，在修订稿的 Methods 部分（第 52 行）补充了相关说明。
-具体而言，我们明确指出，在稿件修订过程中，研究者重新依据原始记录对数据集进行了核查，并对术前信息来源、首次接受牙周手术及收入信息缺失情况等变量的计数进行了修正，同时相应更新了人口统计学数据的分布。修订稿正文及表格中的所有相关结果均采用核查后的数据。
-】
+Response: Thank you for identifying this remaining interpretive issue. Examination of the source data supports age as a possible negative confounder. Among patients aged >60 years, 5/8 (62.5%) had education below a bachelor’s degree, compared with 5/39 (12.8%) among those aged 18–44 years. Nevertheless, the older group more frequently selected professional information sources: 6/8 (75.0%) versus 17/39 (43.6%). This pattern could attenuate the positive education association in the crude model.
 
-### 2. 解释教育程度效应估计值从粗模型到调整模型的变化
+Additional checks undertaken for this response gave an education trend OR of 2.39 (95% CI: 1.09–5.24; *P* = 0.029) after adjustment for age alone, and 1.62 (95% CI: 0.86–3.03; *P* = 0.135) after adjustment for sex alone, compared with the crude OR of 1.57. These checks suggest that age adjustment accounts for most of the observed increase. They are provided here as supporting analyses; they have not been added as new results in the manuscript.
 
-你们在回复中正确指出，修订后的趋势 OR 与之前的二分类 OR 所估计的效应参数（estimand）不同，因此，原先 4.69 与 3.21 之间的比较已不再适用。
+The Discussion now explains that the increase may partly reflect negative confounding by age and provides the observed age-specific distributions. This remains a possible explanation rather than an established mechanism: the >60-year group contains only eight patients, and a change in a logistic-regression OR after adjustment does not by itself establish confounding or quantify its contribution.
 
-对此我表示同意。
+The Abstract now also reports the crude estimate (OR = 1.57, 95% CI: 0.85–2.89; *P* = 0.151) alongside the age- and sex-adjusted estimate (OR = 2.50, 95% CI: 1.11–5.63; *P* = 0.026) and the Firth sensitivity estimate (OR = 2.24, 95% CI: 1.11–5.20; *P* = 0.022). This makes the exploratory nature of the association apparent to readers of the abstract.
 
-但是，在修订后的分析中，这个问题以另一种形式依然存在：
+Revision locations: Discussion: the sentence identifying possible negative confounding, p. 14, lines 312–313; the supporting age-specific distributions, p. 14, line 313, continuing on p. 15, lines 314–316. Abstract Results, p. 2: added crude estimate, lines 35–36; adjusted and Firth estimates in the same comparison, lines 37–38.
 
-- **粗模型趋势 OR**：1.57（95% CI：0.85–2.89，P = 0.151）
-- **年龄和性别调整后的趋势 OR**：2.50（95% CI：1.11–5.63，P = 0.026）
+### Comment 3
 
-仅仅调整两个变量，就使关联强度增加了约60%，并从统计学不显著转变为显著，这仍然需要解释。
+> Describe how Cairo RT1 was assigned. Adopting the current classification was the right decision, and the relabeling is consistent throughout. One gap remains: the records were originally Miller-based, so please add a sentence on how RT1 status was established retrospectively — from clinical notes, photographs, or both; by how many examiners; and whether any agreement check was possible. Readers need to know the classification was assigned rather than simply renamed.
 
-目前，Discussion（讨论）部分只是并列报告了这两个数值，而没有对这一变化作出解释。
+Response: Thank you for requesting clarification of the retrospective classification. The original clinical records used Miller Class I/II. RT1 eligibility was verified by one researcher who reviewed the original periodontal examination charts and preoperative clinical records, with particular attention to the absence of interproximal clinical attachment loss required for Cairo RT1. Thus, classification was verified from the recorded clinical findings rather than inferred solely from the Miller label.
 
-你们自己的表3提示了一种可能的机制。
+The Methods now specifies the original classification, the records reviewed, the number of researchers, and the RT1 criterion. Because this retrospective verification was performed by one researcher without an independent second assessment, no inter-examiner agreement check was possible and no agreement statistic, such as Cohen’s κ, was calculated.
 
-在所有年龄组中，**60岁以上患者选择专业信息来源的比例最高（6/8，75.0%）**，而这一年龄组的教育程度也可能是最低的。
+Revision locations: Methods, “Study design and data collection,” p. 5: original Miller classification, lines 89–90; retrospective review, data sources, and single researcher, lines 90–92; RT1 criterion, lines 92–93. The explanation concerning the absence of an agreement check is provided in this response.
 
-因此，年龄可能起到了**负向混杂因素（negative confounder）**的作用：
+### Comment 4
 
-- 在粗模型中掩盖了教育程度的趋势性关联；
-- 在调整年龄后，这种关联才得以显现。
+> Reference 37 — author name. The 1984 JADA paper on dental fear and avoidance is by Berggren U and Meyerson G. Both the reference list and your response letter give “Meynert.” Please correct it.
 
-如果实际情况确实如此，请用一两句话加以说明。这是一种可以解释且合理的统计学现象。
+Response: Thank you for checking this reference. Re-examination of the original 1984 article and its PubMed record confirms that the second author is Gunnell Meynert. The original article’s first page (p. 247) lists “Ulf Berggren” and “Gunnell Meynert,” and PubMed (PMID: 6590605) records the authors as “U Berggren” and “G Meynert.” The spelling “Meynert” in reference 37 has therefore been retained.
 
-与其不作解释，阐明这一现象更有助于增强读者对研究结果的信心。
+Verification links: [PubMed record](https://pubmed.ncbi.nlm.nih.gov/6590605/); [original article DOI](https://doi.org/10.14219/jada.archive.1984.0328).
 
-如果你们无法根据现有数据确定其机制，明确说明这一点同样是可以接受的回答。
+Reference location (unchanged): reference 37, p. 27, lines 589–591; author names appear on line 589.
 
-此外，还有一个相关问题：
+### Comment 5
 
-目前，摘要中仅报告了调整模型和 Firth 模型的估计结果。
+> The commercial-insurance estimate. Firth OR 18.94 (95% CI 1.11–2925.95) from two patients remains in the main Results. You caveat it carefully, which I appreciate, but a point estimate with an upper bound near 3,000 tends to get quoted out of context. I would move it to Supplementary Material S4 and keep only the overall insurance test (Firth *P* = 0.317) in the main text. This is a recommendation, not a condition.
 
-**请同时补充粗模型的估计值。**
+Response: Thank you for this recommendation. The commercial-insurance category estimate has been removed from the main Results. The overall insurance test is retained (Firth *P* = 0.317). The complete comparison with self-payment (Firth OR = 18.94, 95% CI: 1.11–2925.95) remains in Supplementary Material S4, Table S2. Its note identifies the two respondents in this category, the very wide CI, and the exploratory nature of the comparisons. This preserves complete reporting while reducing the prominence of an imprecise category estimate.
 
-即使读者只阅读摘要，也应该能够获得与你们 Conclusions（结论）部分正确传达的信息一致的认识：
+Revision location: Results, “Crude and adjusted associations with professional information seeking,” p. 12, lines 265–266; the retained overall insurance test appears on line 266, followed directly by the missing-income result. Supplementary location (retained): Supplementary Material S4, Table S2, row “Medical insurance: Commercial insurance vs Self-paid” and the accompanying note.
 
-**这是一种探索性的关联信号（exploratory signal），而非已经确立的研究发现。**
+### Comment 6
 
-【
-感谢审稿人提出这一具有启发性的建议。我们认同，仅报告粗模型与调整模型之间的OR变化，而不解释其可能原因，确实不利于读者准确理解研究结果。
-针对审稿人提出的负向混杂假设，我们重新检查了原始数据中年龄、教育程度和专业信息寻求行为之间的关系。结果发现，60岁以上患者中本科以下学历者占62.5%（5/8），明显高于18–44岁患者的12.8%（5/39）；然而，60岁以上患者选择专业信息来源的比例反而更高（75.0% vs. 43.6%）。这一分布特征与审稿人提出的负向混杂机制相符。
-为进一步评估年龄和性别各自的影响，我们还进行了补充分析。结果显示，仅调整年龄后，教育程度的趋势OR由1.57增加至2.39（P = 0.029）；而仅调整性别后，OR为1.62（P = 0.135）。这提示年龄调整是完整调整模型中OR增加的主要来源。
-我们认为，这一现象可能与不同年龄群体的教育背景及信息获取方式有关：在本研究样本中，高龄患者虽然总体教育程度较低，却更倾向于从医护人员处获取术前信息，从而可能削弱了粗模型中教育程度与专业信息寻求行为之间的正向关联。
-不过，我们也认识到，调整前后OR的变化并不能完全归因于混杂，且60岁以上患者仅有8例，因此尚不足以确定这一机制的具体贡献。基于此，我们在Discussion中补充了年龄可能产生负向混杂的解释，并使用谨慎措辞，避免将其表述为已经确立的机制。
-此外，按照审稿人的建议，我们已在摘要Results部分补充粗模型的估计结果（OR = 1.57，95% CI：0.85–2.89，P = 0.151），使其与调整模型和Firth敏感性分析结果一并呈现。我们认为，这样能够更完整地反映证据，同时明确强调本研究所发现的教育程度关联仍属于探索性结果，需要在更大样本中进一步验证。
-】
+> Figure 3 panels. The caption now states that gamma quantifies each association, but the panels still display only P values. Either add γ with its CI to each panel, or note in the caption that the coefficients appear in the Results text.
 
-### 3. 描述 Cairo RT1 分类的判定方法
+Response: Thank you for recommending that the effect sizes be visible within the panels. Figure 3 has been updated to display Goodman–Kruskal γ, its 95% CI, and the P value in each panel:
 
-采用当前的分类体系是正确的决定，而且全文中的分类名称修改已经保持一致。
+- Panel A: γ = 0.611, 95% CI: 0.213–0.865; *P* = 0.009.
+- Panel B: γ = 0.783, 95% CI: 0.477–0.956; *P* < 0.001.
+- Panel C: γ = 0.740, 95% CI: 0.436–0.945; *P* < 0.001.
 
-但仍存在一个缺口：
+These values agree with the Results text. The caption now also specifies that the 95% CIs for γ were obtained from 10,000 patient-level bootstrap samples.
 
-原始病历采用的是 Miller 分类，因此，请增加一句话，说明研究者如何**回顾性地确定患者的 RT1 分类状态**：
+Revision locations: Figure 3, statistical annotations above the bars in panels A, B, and C; Figure 3 caption, p. 28, lines 616–617 (added bootstrap-CI sentence). Corresponding Results locations (unchanged): panel A estimates, p. 13, lines 273–274; panel B estimates, lines 277–278; panel C estimates, lines 281–282.
 
-- 是依据临床病历记录、临床照片，还是两者共同判定？
-- 由多少名检查者进行判定？
-- 是否有条件开展一致性检验？
+### Comment 7
 
-读者需要确认，RT1 分类是经过实际判定后赋予的，而不仅仅是将原来的分类名称进行了替换。
+> Items you have listed as pending. Three things are described in your response as awaiting resubmission: alignment of the submission-system data-availability statement with the manuscript’s on-request wording, keyword order, and the renamed figure files (Figure_1 flowchart, Figure_2 forest plot, Figure_3 ordinal associations). Please make sure all three are completed at upload, since the versions I was sent still carry the old file numbering.
 
-【
-感谢审稿人对牙龈退缩分类准确性和可重复性的进一步关注。我们认同，仅将原始Miller I–II分类替换为Cairo RT1，而未明确说明回顾性判定过程，可能使读者对分类依据产生疑问。
-原始临床病历采用Miller分类体系，其中Miller I–II类与Cairo RT1在临床特征上具有较高的一致性，均以不存在邻面组织或附着丧失为主要特征。然而，考虑到两种分类体系的具体判定标准并不完全相同，我们并未仅依据分类名称进行转换。
-在本次修订过程中，一名研究者重新核查了患者的原始牙周检查记录表及术前临床病历，并依据Cairo RT1的分类标准，重点检查邻面临床附着丧失情况，以确认研究对象符合RT1的分类要求。
-关于一致性检验，由于本次回顾性分类核查由一名研究者完成，未开展独立的双人分类评估，因此无法计算观察者间一致性指标（如Cohen's κ）。我们认为，相较于在现有资料条件下补充未经实际实施的一致性评价，如实说明分类核查的依据、执行人员及其局限性，更有助于保证研究方法的透明性。
-根据审稿人的建议，我们已在Methods的“Study design and data collection”部分补充了原始分类体系、回顾性核查的数据来源、检查者人数及RT1判定依据，以提高研究方法的透明度和可重复性。
-】
+Response: Thank you for reminding the authors to complete these submission details. The earlier references to pending items concerned updates to be made during resubmission. During the previous resubmission, the submission-system data-availability statement was checked and updated against the manuscript, the keywords were entered separately in manuscript order, and the figure files were uploaded separately with numbering corresponding to the manuscript.
 
-### 4. 参考文献37——作者姓名
+Following this reminder, the submission records and downloadable files were checked again. The downloaded files identified the forest plot as Figure 1 and the screening flowchart as Figure 2, contrary to the manuscript captions; this discrepancy was also present in the system-generated submission PDF. The currently displayed keyword order also differed from the order entered during resubmission. The manuscript and locally retained figures consistently identify Figure 1 as the screening flowchart, Figure 2 as the forest plot, and Figure 3 as the ordinal-association panels. The cause of the discrepancies has not yet been established.
 
-1984年发表于 *JADA*、关于牙科恐惧与回避行为的论文，其作者为 **Berggren U 和 Meyerson G**。
+At this resubmission, the data-availability wording, complete keyword list and order, and figure numbering will be checked individually during upload. The latest downloadable manuscript and figure files will then be inspected to confirm their correspondence with the manuscript. If a discrepancy persists, the editorial office will be contacted to verify the saved keyword entries and figure-number assignments.
 
-然而，你们的参考文献列表和审稿回复信均将其写成了“Meynert”。
+Submission-system action: final upload and download checks at resubmission; no new manuscript amendment is claimed for this item. Manuscript locations for comparison: Data Availability Statement, p. 22, lines 475–476; keywords, p. 3, lines 47–48; Figure 1 caption, p. 27, line 597; Figure 2 caption, p. 27, line 602; Figure 3 caption, p. 28, line 610.
 
-请予以更正。
+### Comment 8
 
-【
-感谢审稿人对参考文献准确性的细致核查。
-针对这一意见，我们重新核对了该文献的PubMed记录及1984年发表于 Journal of the American Dental Association 的原始出版PDF。
-经核实，该论文的作者确实为 Ulf Berggren和Gunnell Meynert，而非Meyerson。原始论文首页（第247页）明确列出了两位作者的完整姓名，且正文页脚及作者介绍中均使用了“Meynert”。此外，PubMed数据库（PMID: 6590605）也将第二作者记录为“G Meynert”，与原始出版文件一致。
-因此，我们确认当前参考文献37中的作者姓名“Berggren U, Meynert G”是准确的，故保留原有引用，不作修改。
-为便于核实，我们提供该文献的DOI和PubMed链接：
-DOI: https://doi.org/10.14219/jada.archive.1984.0328
-PubMed: https://pubmed.ncbi.nlm.nih.gov/6590605/
-】
+> One small addition to Table 1. A clause explaining why three patients received clindamycin rather than amoxicillin — presumably penicillin allergy — would complete an otherwise exemplary table.
 
-### 5. 商业保险的效应估计值
+Response: Thank you for this suggestion. The Table 1 note now states: “Clindamycin was prescribed to three patients because of a reported history of penicillin allergy.” This explains why these patients received regimen B rather than amoxicillin-based regimen A, while distinguishing a reported allergy history from a formally confirmed allergy.
 
-基于仅有的两名患者所得到的：
+Revision location: Table 1 note, p. 29, lines 624–625; the added sentence begins with “Clindamycin” on line 624 and ends with “penicillin allergy” on line 625.
 
-**Firth OR = 18.94（95% CI：1.11–2925.95）**
+## One optional thought
 
-目前仍保留在正文的 Results（结果）部分。
+> You now have 6-month root coverage (median 83.3%) in the dataset but do not use it analytically. If it is easy to do, a brief look at whether achieved coverage relates to the reported influence on future surgery decisions could be interesting — patients’ willingness may track outcome as much as discomfort. I raise it purely as an opportunity and would not want it to hold up acceptance.
 
-你们已经对此进行了谨慎的限定性说明，我对此表示认可。
+Response: Thank you for this optional suggestion. An association between achieved root coverage and the reported influence on future surgery decisions would be relevant to understanding patients’ experiences. The current revision retains the existing analytic scope and does not add this analysis. Six-month root coverage remains a descriptive clinical characteristic. The suggestion provides a useful direction for future research.
 
-但是，一个置信区间上限接近3000的点估计值，很容易在脱离原始语境的情况下被引用。
+Revision location: no new analysis or manuscript revision for this optional item. Existing descriptive reporting: Results, p. 11, line 244; Table 1, p. 29, row “Root coverage at 6 months, %, median (range).”
 
-我建议：
+## Points now closed
 
-- 将这一估计值移至**补充材料 S4（Supplementary Material S4）**；
-- 正文中仅保留保险变量的整体检验结果（Firth P = 0.317）。
+> For the record, I consider the following fully resolved and raise no further comment on them: the construct definition and its propagation through title, abstract, and conclusions (Comment 1); the single-choice measurement limitation (2); reporting of the previously omitted items, including cost and informed consent (3); the clinical characteristics table (4); reclassification to Cairo RT1 as a label (5, with point 3 above the only residue); recall bias and design terminology (6); the anxiety-measurement caveat (7); ordinal analysis, effect sizes, model construction, EPV, retention of original categories, missing-data handling, multiplicity, and removal of the inappropriate reliability indices (8.1–8.8); quality-control definitions and the response-versus-validity rates (9); the strengths paragraph (10); the scope of the conclusions (11); the P-value inconsistency (13); self-contained tables (14–16); the exclusion-criterion ambiguity (17); the citation–claim mismatches (18); the self-citation (19); the PROM literature (20); the novelty framing (21); STROBE and CHERRIES (22); ethics timing and the distinction between research consent and clinical consent (23); and the abstract and title revisions (25–27).
 
-**这是一项建议，而非必须满足的条件。**
+Response: Thank you for confirming that these points have been resolved. The corresponding revisions have been retained, with the remaining clarification of retrospective RT1 classification addressed under Comment 3 above.
 
+Yours sincerely,
 
-【
-感谢审稿人的建议。正文 Results 中商业保险类别的具体效应估计已删除，仅保留保险变量的整体检验结果（Firth *P* = 0.317）。商业保险与自费的比较结果（Firth OR = 18.94，95% CI：1.11–2925.95）继续完整保留于 Supplementary Material S4 的 Table S2，表注同时说明该类别仅有2名患者，置信区间极宽，相关比较属于探索性分析。这一调整保留了结果报告的完整性，并减少了正文中突出呈现低精度估计所带来的过度解读风险。
-】
-
-### 6. 图3的各个子图
-
-目前，图注已经说明 γ（gamma）用于量化各项关联的强度。
-
-但是，各个子图仍然只显示 P 值。
-
-请采取以下两种方式之一：
-
-- 在每个子图中增加 γ 值及其置信区间（CI）；
-- 或者在图注中注明，相关系数已在 Results（结果）正文中报告。
-
-【
-感谢审稿人的建议。图3已重新绘制，在A、B、C各子图中分别增加了 Goodman–Kruskal γ及其95% CI，并保留原有*P*值。图注也补充说明，γ的95% CI通过10,000次患者层面 bootstrap 重抽样获得。图中数值与 Results 正文一致，使读者能够直接从各子图了解关联的方向、强度及估计的不确定性。
-】
-
-### 7. 你们列为待完成的事项
-
-你们在回复信中提到，有三项工作将在重新投稿时完成：
-
-1. **数据可用性声明**：使投稿系统中的 Data Availability Statement 与稿件中“可根据请求提供数据”的表述保持一致。
-2. **关键词顺序**：调整关键词的排列顺序。
-3. **重新命名图件文件**：
-   - Figure_1：流程图（flowchart）
-   - Figure_2：森林图（forest plot）
-   - Figure_3：有序变量关联图（ordinal associations）
-
-请确保在上传修订稿时完成上述全部三项工作，因为我收到的版本仍然沿用了旧的图件编号。
-
-【
-感谢您提醒我们核对这些投稿细节。先前回复中“待完成”的表述，指的是需要在后续重新投稿阶段完成的系统更新。提交该回复后，我们在重新投稿过程中对照修订稿，检查并更新了投稿系统中的数据可用性声明，单独填写了与稿件一致的关键词及其顺序，并单独上传了按稿件编号命名的图件文件。
-
-收到您的提醒后，我们再次检查了投稿记录及系统提供下载的文件，发现图1和图2的文件编号与稿件图注不一致：森林图对应图1，筛选流程图对应图2；这一差异也出现在系统生成的投稿PDF中。此外，当前显示的关键词顺序与我们重新投稿时填写的顺序不一致。我们存档的图件文件和稿件图注均采用以下对应关系：图1为筛选流程图，图2为森林图，图3为有序关联图。目前尚未确定上述差异产生的原因。
-
-本次重新投稿时，我们将再次逐项核对系统中的数据可用性声明、完整关键词及其顺序，以及图件编号与内容的对应关系，并在提交后检查系统提供下载的最新稿件和图件，确认最终呈现是否与稿件一致。如差异仍然存在，我们将联系编辑部，请其协助核查已保存的关键词记录和图件编号对应关系。
-】
-
-### 8. 对表1进行一项小补充
-
-请增加一个简短的说明，解释为什么有3名患者使用了克林霉素（clindamycin），而不是阿莫西林（amoxicillin）。
-
-推测原因是青霉素过敏。
-
-补充这一说明，将使原本已经十分出色的表格更加完整。
-
-【
-感谢审稿人提出的细致建议。我们已在表1的注释中补充说明克林霉素的使用原因。具体而言，3名患者因自述有青霉素过敏史，故使用克林霉素替代阿莫西林。修改后的表1注释增加了以下说明：
-“Clindamycin was prescribed to three patients because of a reported history of penicillin allergy.”
-这一补充进一步明确了不同术后抗生素方案的使用依据，提高了表格信息的完整性与透明度。
-】
-
-## 二、一项可选的建议（One optional thought）
-
-你们目前的数据集中已经包含了**术后6个月的牙根覆盖率（中位数为83.3%）**，但尚未将其用于统计分析。
-
-如果操作起来比较方便，可以简单考察一下：
-
-**实际达到的牙根覆盖率是否与患者报告的未来手术决策所受影响有关。**
-
-这一分析可能会很有意思，因为患者未来接受手术的意愿，可能不仅与术后不适有关，也同样受到手术效果的影响。
-
-我提出这一点纯粹是希望为研究提供一个潜在的拓展机会，**并不希望它成为延迟稿件接受的原因。**
-
-【
-感谢审稿人提出这一有价值的建议，并明确说明其为可选的拓展分析。实际达到的牙根覆盖率与患者未来接受手术的意愿之间的关系具有研究价值，可为理解临床疗效与患者决策之间的联系提供补充信息。
-
-本次修订选择保留现有分析范围，未增加牙根覆盖率与未来手术决策之间的关联分析。6个月牙根覆盖率仍作为临床特征进行描述性报告。感谢审稿人的理解，这一建议为后续研究提供了有价值的方向。
-】
-
-## 三、已经解决的问题（Points now closed）
-
-为明确记录，我认为以下问题均已得到**充分解决**，不再提出进一步意见：
-
-- **意见1**：研究构念的定义，以及该定义在标题、摘要和结论中的一致性修改。
-- **意见2**：单选题测量方式的局限性。
-- **意见3**：补充报告此前遗漏的问卷条目，包括费用和知情同意。
-- **意见4**：临床特征表。
-- **意见5**：将分类名称重新调整为 Cairo RT1（仅剩上文第3点所述的问题）。
-- **意见6**：回忆偏倚以及研究设计术语。
-- **意见7**：关于焦虑测量方法的局限性说明。
-- **意见8.1–8.8**：
-  - 有序变量分析；
-  - 效应量；
-  - 模型构建；
-  - 每个变量对应的事件数（EPV）；
-  - 保留原始分类；
-  - 缺失数据处理；
-  - 多重比较；
-  - 删除不恰当的信度指标。
-- **意见9**：质量控制的定义，以及问卷回应率与有效率之间的区别。
-- **意见10**：研究优势段落。
-- **意见11**：研究结论的适用范围。
-- **意见13**：P 值不一致的问题。
-- **意见14–16**：表格的独立完整性。
-- **意见17**：排除标准表述不明确的问题。
-- **意见18**：引用文献与所支持论断不匹配的问题。
-- **意见19**：自引问题。
-- **意见20**：患者报告结局（PROM）相关文献。
-- **意见21**：研究创新性的表述方式。
-- **意见22**：STROBE 和 CHERRIES 报告规范。
-- **意见23**：伦理审批时间，以及研究知情同意与临床知情同意之间的区别。
-- **意见25–27**：摘要和标题的修改。
+Wenguang Qin
