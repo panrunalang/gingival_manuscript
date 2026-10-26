@@ -1,35 +1,35 @@
-panel,relationship,row_category,column_category,count,row_total,row_percentage
-A,Preoperative anxiety × Postoperative reaction,No anxiety,No discomfort,12,20,60.0
-A,Preoperative anxiety × Postoperative reaction,No anxiety,Mild symptoms,8,20,40.0
-A,Preoperative anxiety × Postoperative reaction,No anxiety,Marked discomfort,0,20,0.0
+panel,relationship,row_category,column_category,count,row_total,row_percentage,association_measure,association_value,ci_95_lower,ci_95_upper,p_value,p_value_display,statistical_test
+A,Preoperative anxiety × Postoperative reaction,No anxiety,No discomfort,12,20,60.0,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
+A,Preoperative anxiety × Postoperative reaction,No anxiety,Mild symptoms,8,20,40.0,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
+A,Preoperative anxiety × Postoperative reaction,No anxiety,Marked discomfort,0,20,0.0,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
 A,Preoperative anxiety × Postoperative reaction,"Mild
-anxiety",No discomfort,13,43,30.23255813953488
+anxiety",No discomfort,13,43,30.23255813953488,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
 A,Preoperative anxiety × Postoperative reaction,"Mild
-anxiety",Mild symptoms,29,43,67.44186046511628
+anxiety",Mild symptoms,29,43,67.44186046511628,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
 A,Preoperative anxiety × Postoperative reaction,"Mild
-anxiety",Marked discomfort,1,43,2.3255813953488373
+anxiety",Marked discomfort,1,43,2.3255813953488373,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
 A,Preoperative anxiety × Postoperative reaction,"Moderate
-anxiety",No discomfort,0,3,0.0
+anxiety",No discomfort,0,3,0.0,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
 A,Preoperative anxiety × Postoperative reaction,"Moderate
-anxiety",Mild symptoms,3,3,100.0
+anxiety",Mild symptoms,3,3,100.0,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
 A,Preoperative anxiety × Postoperative reaction,"Moderate
-anxiety",Marked discomfort,0,3,0.0
-B,Preoperative anxiety × Psychological burden,No anxiety,Yes,5,20,25.0
-B,Preoperative anxiety × Psychological burden,No anxiety,No,15,20,75.0
+anxiety",Marked discomfort,0,3,0.0,Goodman–Kruskal gamma,0.611,0.213,0.865,0.009,P = 0.009,Linear-by-linear association test
+B,Preoperative anxiety × Psychological burden,No anxiety,Yes,5,20,25.0,Goodman–Kruskal gamma,0.783,0.477,0.956,0.0005,P < 0.001,Linear-by-linear association test
+B,Preoperative anxiety × Psychological burden,No anxiety,No,15,20,75.0,Goodman–Kruskal gamma,0.783,0.477,0.956,0.0005,P < 0.001,Linear-by-linear association test
 B,Preoperative anxiety × Psychological burden,"Mild
-anxiety",Yes,30,43,69.76744186046511
+anxiety",Yes,30,43,69.76744186046511,Goodman–Kruskal gamma,0.783,0.477,0.956,0.0005,P < 0.001,Linear-by-linear association test
 B,Preoperative anxiety × Psychological burden,"Mild
-anxiety",No,13,43,30.23255813953488
+anxiety",No,13,43,30.23255813953488,Goodman–Kruskal gamma,0.783,0.477,0.956,0.0005,P < 0.001,Linear-by-linear association test
 B,Preoperative anxiety × Psychological burden,"Moderate
-anxiety",Yes,3,3,100.0
+anxiety",Yes,3,3,100.0,Goodman–Kruskal gamma,0.783,0.477,0.956,0.0005,P < 0.001,Linear-by-linear association test
 B,Preoperative anxiety × Psychological burden,"Moderate
-anxiety",No,0,3,0.0
-C,Postoperative reaction × Influence on future surgery,None,No influence,19,25,76.0
-C,Postoperative reaction × Influence on future surgery,None,Mild influence,5,25,20.0
-C,Postoperative reaction × Influence on future surgery,None,Moderate influence,1,25,4.0
-C,Postoperative reaction × Influence on future surgery,Mild,No influence,10,40,25.0
-C,Postoperative reaction × Influence on future surgery,Mild,Mild influence,28,40,70.0
-C,Postoperative reaction × Influence on future surgery,Mild,Moderate influence,2,40,5.0
-C,Postoperative reaction × Influence on future surgery,Marked,No influence,0,1,0.0
-C,Postoperative reaction × Influence on future surgery,Marked,Mild influence,1,1,100.0
-C,Postoperative reaction × Influence on future surgery,Marked,Moderate influence,0,1,0.0
+anxiety",No,0,3,0.0,Goodman–Kruskal gamma,0.783,0.477,0.956,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,None,No influence,19,25,76.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,None,Mild influence,5,25,20.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,None,Moderate influence,1,25,4.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,Mild,No influence,10,40,25.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,Mild,Mild influence,28,40,70.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,Mild,Moderate influence,2,40,5.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,Marked,No influence,0,1,0.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,Marked,Mild influence,1,1,100.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
+C,Postoperative reaction × Influence on future surgery,Marked,Moderate influence,0,1,0.0,Goodman–Kruskal gamma,0.740,0.436,0.945,0.0005,P < 0.001,Linear-by-linear association test
